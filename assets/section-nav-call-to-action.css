@@ -1,0 +1,182 @@
+#shopify-section-header .tier-2.mega-menu .nav-columns > li:first-child  > a {
+  font-weight: 600 !important;
+  text-decoration: underline !important;
+}
+@media (min-width: 1100px) {
+  .nav-ctas__cta {
+    position: relative;
+  }
+  .learn-more-button {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    right: 20px;
+    background-color: transparent !important;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    z-index: 10;
+    opacity: 1;
+  }
+  .learn-more-button span {
+    margin-right: 8px;
+  }
+  .learn-more-button:hover {
+    opacity: 1;
+  }
+  .learn-more-text {
+    color: white !important;
+  }
+  .learn-more-button span {
+    color: white !important;
+  }
+  .nav-ctas__cta .overlay-type {
+    min-height: auto !important;
+    padding: 0px;
+    position: absolute;
+  }
+  #shopify-section-header
+    .tier-2.mega-menu
+    .nav-columns
+    .nav-ctas__wrapper
+    > .nav-ctas__cta {
+    position: relative !important;
+  }
+  .learn-more-button {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #0003;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 10;
+    opacity: 1;
+  }
+  .learn-more-text, .learn-more-button span {
+    color: #fff !important;
+    font-size: 12px;
+    padding: 8px;
+    position: absolute;
+    right: -4px;
+    bottom: 0px;
+    background-color: #0003;
+    width: max-content;
+  }
+  .learn-more-button:hover {
+    background-color: transparent !important;
+  }
+  .custom-nav-ctas-container .nav-ctas__cta:hover .learn-more-text,
+  .custom-nav-ctas-container .nav-ctas__cta:hover .learn-more-button span {
+    background-color: black !important;
+  }
+  #shopify-section-header .tier-2.mega-menu .nav-columns .nav-ctas__wrapper > *{
+      aspect-ratio:unset !important;
+  }
+}
+@media (max-width: 1099px) {
+
+  .nav-container .container:nth-child(3) .nav-body > ul li[data-nav-title="home vanities/the meira collection"] + li 
+    > ul li:first-child a::after 
+  {
+   content: "Coming Soon";
+   background-color: black;
+   color: white;
+   padding: 8px 12px;
+   border-radius: 20px;
+   font-size: 12px;
+   font-weight: bold;
+   margin-left: 8px;
+ }
+ .nav-container .container:nth-child(3) .nav-body  > ul li[data-nav-title="home vanities/the meira collection"] + li 
+   >ul li:first-child a
+  {
+   width: max-content;
+  }
+ .nav-container .container:nth-child(3) .nav-body  > ul li[data-nav-title="home vanities/the meira collection"] + li 
+  >ul li:first-child:hover a::after
+  {
+   text-decoration: underline !important;
+  } 
+
+   .nav-ctas__cta{
+    transition: transform 0.3s ease;
+  }
+  .nav-ctas__cta:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  .custom-learn  a {
+    display: none;
+  }
+  .nav-ctas__container picture {
+    display: block !important;
+  }
+  .nav-ctas__container
+  {
+    display: grid;
+  }
+  .nav-ctas__cta
+  {
+    margin:0;
+  }
+  .learn-more-button {
+    position: absolute !important;
+    height: unset!important;
+    width: unset !important;
+    bottom: 8px;
+    right: 0;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 700;
+    padding:0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color .3s ease, transform .3s ease;
+    text-decoration: none;
+    z-index: 10;
+    opacity: 1;
+    text-wrap: nowrap;
+  }
+ .nav-ctas__cta:hover .learn-more-button,
+  .nav-ctas__cta:hover .learn-more-text,
+  .nav-ctas__cta:hover .learn-more-button span {
+    background-color: black !important;
+  }
+  .nav-ctas__cta:hover .learn-more-text,
+  .nav-ctas__cta:hover .learn-more-button span {
+    background-color: black !important;
+    color: #fff !important;
+  }
+  .custom-overlay{
+    min-height: unset !important;
+  }
+  .custom-nav-cta-container{
+    display: flex !important;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+   .nav-ctas__cta:hover .learn-more-text,
+   .nav-ctas__cta:hover .learn-more-button span{
+    background-color: black !important;
+  }
+  .learn-more-text, .learn-more-button span{
+    background-color: #0003;
+    padding: 8px;
+  }
+}

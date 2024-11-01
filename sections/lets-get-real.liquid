@@ -1,0 +1,136 @@
+<div class="lets-get-real-section" id="section-{{ section.id }}">
+  <div class="lets-get-real-container">
+    <h2 class="lets-get-real-title">{{ section.settings.title }}</h2>
+    <div class="lets-get-real-content">
+      <p class="lets-get-real-highlight">{{ section.settings.highlight_text }}</p>
+      {{ section.settings.content }}
+    </div>
+    <div class="lets-get-real-emphasis">
+      {{ section.settings.emphasis_text }}
+    </div>
+    <div class="lets-get-real-footer">
+      {{ section.settings.footer_text }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Let's Get Real",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Let's get real:"
+    },
+    {
+      "type": "text",
+      "id": "highlight_text",
+      "label": "Highlighted Text",
+      "default": "your greatest power as an artist is your ability to see."
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Main Content",
+      "default": "<p>When you cannot see, you end up creating from your head instead of using your eye. But when an artist can see, the door to creativity opens wide.</p>"
+    },
+    {
+      "type": "textarea",
+      "id": "emphasis_text",
+      "label": "Emphasized Text",
+      "default": "Other lighting companies are happy to sell you cheap, ineffective lights, preying on the fact that most artists don't know what good lighting looks like. They keep you in the dark—literally and figuratively."
+    },
+    {
+      "type": "richtext",
+      "id": "footer_text",
+      "label": "Footer Text",
+      "default": "<p>TML was built to change that. Designed by Oscar-winning makeup artist <a href='#'>Vivian Baker</a> and her photographer husband <a href='#'>Michael Astalos</a>, TML lighting had to meet the critical demands of her artistry. Now these lights are available for all artists..</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Let's Get Real",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.lets-get-real-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.lets-get-real-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.lets-get-real-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.lets-get-real-content {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.lets-get-real-highlight {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.lets-get-real-emphasis {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.lets-get-real-footer {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.lets-get-real-footer a {
+  color: #e6a74a;
+  text-decoration: none;
+}
+
+.lets-get-real-footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .lets-get-real-section {
+    padding: 40px 15px;
+  }
+
+  .lets-get-real-title {
+    font-size: 24px;
+  }
+
+  .lets-get-real-content,
+  .lets-get-real-emphasis {
+    font-size: 16px;
+  }
+
+  .lets-get-real-highlight {
+    font-size: 18px;
+  }
+
+  .lets-get-real-footer {
+    font-size: 14px;
+  }
+}
+</style>

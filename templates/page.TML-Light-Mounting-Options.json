@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich_text_9BGBaK": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Everything You Need To Know About Mounting Options",
+        "add-header-points": true,
+        "header-point-one": "Stand",
+        "header-point-two": "Suction Cup",
+        "header-point-three": "Magic Mount",
+        "header-point-four": "EZ Clamp",
+        "header-point-five": "Universal Arm",
+        "header-point-color": "#bc7c08",
+        "title_size": 48,
+        "title_width": 16,
+        "heading_h1": false,
+        "text": "",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "custom",
+        "color_bg": "#e9e9e9",
+        "color_text": "",
+        "reduce_padding": true,
+        "increase_text_width": false,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": false,
+        "custom_background_color": "rgba(0,0,0,0)",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": false,
+        "text_font_size": 16,
+        "mobile_text_font_size": 14,
+        "text_font_weight": "400",
+        "text_color": "#010202",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": true
+      }
+    },
+    "rich_text_HeMNGV": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "add-header-points": false,
+        "header-point-one": "",
+        "header-point-two": "",
+        "header-point-three": "",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>The genius of The Makeup Light lies <strong>not only in its exceptional lighting but in the versatility of its mounting options.<\/strong><\/p><p> With four unique mounts, TML ensures that you have the<strong> flexibility to set up perfect lighting in any environment. <\/strong>Whether you need a sturdy stand, a suction cup, the innovative magic mount, or the EZ clamp, <strong>each mount is designed to elevate your lighting experience <\/strong>and adapt seamlessly to your professional needs. Click on the links below to discover the unique features of each mount.<\/p>",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "custom",
+        "color_bg": "#f2f2f2",
+        "color_text": "",
+        "reduce_padding": false,
+        "increase_text_width": true,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": true,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 25,
+        "enable_custom_background": true,
+        "custom_background_color": "#f2f2f2",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": true,
+        "text_font_size": 16,
+        "mobile_text_font_size": 16,
+        "text_font_weight": "400",
+        "text_color": "#010202",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": false
+      }
+    },
+    "landing_custom_multi_MLGAHy": {
+      "type": "landing-custom-multi",
+      "blocks": {
+        "text_block_eWtpAn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/s1.png",
+            "image_width": 1000,
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/stand-mount",
+            "show_learn_more": true
+          }
+        },
+        "text_block_icJDFr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/s2.png",
+            "image_width": 1000,
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/suction-cup-mount",
+            "show_learn_more": true
+          }
+        },
+        "text_block_EGpkPY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/s3.png",
+            "image_width": 1000,
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/magic-mount",
+            "show_learn_more": true
+          }
+        },
+        "text_block_977c39": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/s4.png",
+            "image_width": 700,
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/ez-clamp-mount",
+            "show_learn_more": true
+          }
+        },
+        "text_block_AqJcx8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/s5.png",
+            "image_width": 1000,
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/universal-arm",
+            "show_learn_more": true
+          }
+        }
+      },
+      "block_order": [
+        "text_block_eWtpAn",
+        "text_block_icJDFr",
+        "text_block_EGpkPY",
+        "text_block_977c39",
+        "text_block_AqJcx8"
+      ],
+      "settings": {
+        "title": "",
+        "background_color": "#f2f2f2",
+        "text_alignment": "left",
+        "media_shape": "natural",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "reduce_paddings": false,
+        "image_spacing": 10,
+        "justify_content": "center",
+        "image_spacing_mobile": 10,
+        "image_section_padding_bottom": 150,
+        "remove-mobile-img-container-padding": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_9BGBaK",
+    "rich_text_HeMNGV",
+    "landing_custom_multi_MLGAHy"
+  ]
+}

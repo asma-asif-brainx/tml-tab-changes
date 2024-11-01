@@ -1,0 +1,192 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich_text_ajDGz6": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Choose Between The",
+        "add-header-points": true,
+        "header-point-one": "Key Light",
+        "header-point-two": "Eyelight",
+        "header-point-three": "Jet Light",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "#bc7c08",
+        "title_size": 48,
+        "title_width": 14,
+        "heading_h1": false,
+        "text": "",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "custom",
+        "color_bg": "#e9e9e9",
+        "color_text": "",
+        "reduce_padding": true,
+        "increase_text_width": false,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": false,
+        "custom_background_color": "rgba(0,0,0,0)",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": false,
+        "text_font_size": 16,
+        "mobile_text_font_size": 14,
+        "text_font_weight": "400",
+        "text_color": "#000000",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": true
+      }
+    },
+    "rich_text_kwxqJc": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "add-header-points": false,
+        "header-point-one": "",
+        "header-point-two": "",
+        "header-point-three": "",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>At The Makeup Light, we offer three versatile light panels <strong>designed to meet the specific needs of artists and professionals.<\/strong>\u2028Whether you're working in film, photography, makeup, or simply need professional lighting for your studio or vanity, each light panel has unique advantages. While one light may seem sufficient, incorporating multiple lights can enhance your setup, offering versatility and\u2028better results without overwhelming the process.<\/p>",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_scheme": "custom",
+        "color_bg": "#f2f2f2",
+        "color_text": "",
+        "reduce_padding": true,
+        "increase_text_width": true,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": false,
+        "custom_background_color": "rgba(0,0,0,0)",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": false,
+        "text_font_size": 17,
+        "mobile_text_font_size": 16,
+        "text_font_weight": "400",
+        "text_color": "#010202",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": false
+      }
+    },
+    "custom_article_header_FDGQzL": {
+      "type": "custom-article-header",
+      "settings": {
+        "background_color": "#f2f2f2",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "content_max_width": 550,
+        "text_alignment": "center",
+        "subheading": "Here’s A Breakdown To Help You Choose Between\u2028the 3 Portable Panels!",
+        "subheading_color": "#ca8300",
+        "subheading_font_size": 24,
+        "subheading_font_weight": "600",
+        "subheading_font_style": "italic",
+        "heading": "",
+        "heading_color": "#000000",
+        "heading_font_size": 36,
+        "mobile_heading_font_size": 24,
+        "heading_font_weight": "700"
+      }
+    },
+    "landing_custom_multi_nwbUa3": {
+      "type": "landing-custom-multi",
+      "blocks": {
+        "text_block_RtrgGj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/key.png",
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/key-light",
+            "show_learn_more": true
+          }
+        },
+        "text_block_TNjcH4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/eyel.png",
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/eye-light",
+            "show_learn_more": true
+          }
+        },
+        "text_block_AT6Kq9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/jetl.png",
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/jet-light",
+            "show_learn_more": true
+          }
+        }
+      },
+      "block_order": [
+        "text_block_RtrgGj",
+        "text_block_TNjcH4",
+        "text_block_AT6Kq9"
+      ],
+      "settings": {
+        "title": "",
+        "background_color": "#f2f2f2",
+        "text_alignment": "left",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "image_section_padding_bottom": 150,
+        "remove-mobile-img-container-padding": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_ajDGz6",
+    "rich_text_kwxqJc",
+    "custom_article_header_FDGQzL",
+    "landing_custom_multi_nwbUa3"
+  ]
+}

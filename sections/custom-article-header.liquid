@@ -1,0 +1,195 @@
+{{ 'custom-article-header.css' | asset_url | stylesheet_tag }}
+
+<div class="custom-article-header custom-article-header--{{ section.id }}" style="background-color: {{ section.settings.background_color }};">
+  <div class="custom-article-header__content">
+    {% if section.settings.heading != blank %}
+      <h1 class="custom-article-header__heading">{{ section.settings.heading }}</h1>
+    {% endif %}
+
+    {% if section.settings.subheading != blank %}
+      <h3 class="custom-article-subhead custom-article-header__subheading">{{ section.settings.subheading }}</h3>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+  .custom-article-header--{{ section.id }} {
+    --padding-top: {{ section.settings.padding_top }}px;
+    --padding-bottom: {{ section.settings.padding_bottom }}px;
+    --content-max-width: {{ section.settings.content_max_width }}px;
+    --text-alignment: {{ section.settings.text_alignment }};
+    --subheading-color: {{ section.settings.subheading_color }};
+    --subheading-font-size: {{ section.settings.subheading_font_size }}px;
+    --subheading-font-weight: {{ section.settings.subheading_font_weight }};
+    --heading-color: {{ section.settings.heading_color }};
+    --heading-font-size: {{ section.settings.heading_font_size }}px;
+    --mobile-heading-font-size : {{ section.settings.mobile_heading_font_size }};
+    --heading-font-weight: {{ section.settings.heading_font_weight }};
+    --subheading-font-style: {{ section.settings.subheading_font_style }};
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Custom Article Header",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f4f4f4"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "min": 400,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "label": "Content Max Width",
+      "default": 800
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Understanding Color Temperature And Kelvin:"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading Color",
+      "default": "#b87333"
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Subheading Font Size",
+      "default": 18
+    },
+    {
+      "type": "select",
+      "id": "subheading_font_weight",
+      "label": "Subheading Font Weight",
+      "options": [
+        { "value": "300", "label": "Light" },
+        { "value": "400", "label": "Regular" },
+        { "value": "500", "label": "Medium" },
+        { "value": "600", "label": "Semi-Bold" },
+        { "value": "700", "label": "Bold" }
+      ],
+      "default": "400"
+    },
+    {
+"type": "select",
+      "id": "subheading_font_style",
+      "label": "Subheading Font Style",
+      "default": "italic",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "italic",
+          "label": "Italic"
+        },
+        {
+          "value": "oblique",
+          "label": "Oblique"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Why It Matters For Your Makeup Artistry"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "min": 20,
+      "max": 72,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading Font Size",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "mobile_heading_font_size",
+      "min": 20,
+      "max": 72,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile heading Font Size",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "heading_font_weight",
+      "label": "Heading Font Weight",
+      "options": [
+        { "value": "300", "label": "Light" },
+        { "value": "400", "label": "Regular" },
+        { "value": "500", "label": "Medium" },
+        { "value": "600", "label": "Semi-Bold" },
+        { "value": "700", "label": "Bold" }
+      ],
+      "default": "700"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Article Header",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+// Any custom JS can be added here
+{% endjavascript %}

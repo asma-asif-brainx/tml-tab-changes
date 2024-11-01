@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich_text_wQ9nkb": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Learn The Trifecta of Lighting",
+        "add-header-points": true,
+        "header-point-one": "CRI",
+        "header-point-two": "Color Temperature",
+        "header-point-three": "Lux",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "#bc7c08",
+        "title_size": 48,
+        "title_width": 16,
+        "heading_h1": false,
+        "text": "",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "custom",
+        "color_bg": "#e9e9e9",
+        "color_text": "",
+        "reduce_padding": false,
+        "increase_text_width": false,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": false,
+        "custom_background_color": "rgba(0,0,0,0)",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": false,
+        "text_font_size": 16,
+        "mobile_text_font_size": 14,
+        "text_font_weight": "400",
+        "text_color": "#000000",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": true
+      }
+    },
+    "rich_text_KTw9cM": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "add-header-points": false,
+        "header-point-one": "",
+        "header-point-two": "",
+        "header-point-three": "",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "",
+        "title_size": 48,
+        "title_width": 24,
+        "heading_h1": false,
+        "text": "<p>At The Makeup Light, our lights are designed to give you perfect color accuracy <strong>(CRI)<\/strong>, a balanced color temperature <strong>(Kelvin)<\/strong>, and the right amount of light <strong>(Lux)<\/strong> to get the job done right.\u2028\u2028<\/p><p>Together, these three features ensure that makeup looks flawless, whether you're on set, taking photos, or working in a studio. Our lights provide natural-looking, even illumination and are easy on the eyes, giving you professional-quality results every time. Explore an in-depth exploration of each component of the trifecta, along with its significance for makeup artists.<\/p>",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "custom",
+        "color_bg": "#f2f2f2",
+        "color_text": "",
+        "reduce_padding": true,
+        "increase_text_width": true,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": false,
+        "custom_background_color": "rgba(0,0,0,0)",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": false,
+        "text_font_size": 16,
+        "mobile_text_font_size": 14,
+        "text_font_weight": "400",
+        "text_color": "#010202",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": false
+      }
+    },
+    "landing_custom_multi_CHjikk": {
+      "type": "landing-custom-multi",
+      "blocks": {
+        "text_block_xAaBai": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/cri.png",
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/understanding-cri",
+            "show_learn_more": true
+          }
+        },
+        "text_block_ytByac": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/CT.png",
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/color-temperature",
+            "show_learn_more": true
+          }
+        },
+        "text_block_4npGQy": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/LUX.png",
+            "title": "",
+            "link": "https:\/\/themakeuplight.com\/pages\/understanding-LUX",
+            "show_learn_more": true
+          }
+        }
+      },
+      "block_order": [
+        "text_block_xAaBai",
+        "text_block_ytByac",
+        "text_block_4npGQy"
+      ],
+      "settings": {
+        "title": "",
+        "background_color": "#f2f2f2",
+        "text_alignment": "left",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "image_section_padding_bottom": 150,
+        "remove-mobile-img-container-padding": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_wQ9nkb",
+    "rich_text_KTw9cM",
+    "landing_custom_multi_CHjikk"
+  ]
+}

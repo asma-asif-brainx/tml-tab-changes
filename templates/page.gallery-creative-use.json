@@ -1,0 +1,390 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "46330837-a1d5-4289-9fd3-ee7b6ec60647": {
+      "type": "slideshow",
+      "blocks": {
+        "05a44259-0996-448f-a8bb-562366a2dcc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/car-ez-clamp-tml.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "template--14782940872774__46330837-a1d5-4289-9fd3-ee7b6ec60647-16841634927325a5b7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/melissa-street-hack-tml.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "e03571f0-6c68-4c2f-bcf2-5ccb10254960": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/car-suction-mount-makeup-light.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "template--14782940872774__46330837-a1d5-4289-9fd3-ee7b6ec60647-16841634927325a5b7-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gold_Clamp_On_Frosted_Door.JPG",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "template--14782940872774__46330837-a1d5-4289-9fd3-ee7b6ec60647-16841634927325a5b7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ez-clamp-hack.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "05a44259-0996-448f-a8bb-562366a2dcc8",
+        "template--14782940872774__46330837-a1d5-4289-9fd3-ee7b6ec60647-16841634927325a5b7-0",
+        "e03571f0-6c68-4c2f-bcf2-5ccb10254960",
+        "template--14782940872774__46330837-a1d5-4289-9fd3-ee7b6ec60647-16841634927325a5b7-2",
+        "template--14782940872774__46330837-a1d5-4289-9fd3-ee7b6ec60647-16841634927325a5b7-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "slide_transition": "slide",
+        "slide_navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "gallery_xF4Hht": {
+      "type": "gallery",
+      "blocks": {
+        "image_T4dMJW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tml-creative-use.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "image_4qJH8t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ez-clamp-key-light.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "image_7RkUaj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/car-ez-clamp-tml.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "image_QeQnmH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/car-suction-mount-makeup-light.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "image_Xfgezf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/melissa-street-hack-tml.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_T4dMJW",
+        "image_4qJH8t",
+        "image_7RkUaj",
+        "image_QeQnmH",
+        "image_Xfgezf"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 3,
+        "desktop_image_height": 400,
+        "mobile_image_height": 400,
+        "title_size": 44,
+        "enable_margin": true,
+        "full_width": false,
+        "enable_carousel": false,
+        "overlay_style_tint": false,
+        "alternate_bg_color": false
+      }
+    },
+    "265620fb-f44b-46c0-8b7e-509e496fdd41": {
+      "type": "gallery",
+      "blocks": {
+        "template--14759328022598__265620fb-f44b-46c0-8b7e-509e496fdd41-1682952543c432fb08-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0451-Meira_VBJJ-386-fCT_1.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "TML MEIRA",
+            "title": "Home Vanity",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "View Gallery",
+            "link": "shopify:\/\/pages\/gallery-home-use",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "template--14759328022598__265620fb-f44b-46c0-8b7e-509e496fdd41-1682952543c432fb08-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0497-VivMarissa-1-777-CT.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Key Light",
+            "title": "Professional Lighting",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "View Gallery",
+            "link": "shopify:\/\/pages\/gallery-pro-lighting",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "b22934be-3b70-432e-84a2-7333f6e97f30": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0451-Meira_VBJJ-083.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Customize Your Experience",
+            "title": "Custom Lighting",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "",
+            "link": "shopify:\/\/pages\/gallery-custom-installs",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "template--14759328022598__265620fb-f44b-46c0-8b7e-509e496fdd41-1682952543c432fb08-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0390-926-1-1-1400sq.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Eyelight",
+            "title": "Your Travel Light",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "View Gallery",
+            "link": "shopify:\/\/pages\/gallery-eyelight",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1b604d6c-533b-4046-917f-b07afec27add": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jet-light-photography-light.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Jet Light",
+            "title": "Photography + Makeup",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "View Gallery",
+            "link": "shopify:\/\/pages\/gallery-photography",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "30f431dd-ce4d-439d-bbcd-3ac715b205ae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic-trailers-lighting.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Film Trailers",
+            "title": "Trailer Use",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "View Gallery",
+            "link": "shopify:\/\/pages\/gallery-trailer-use",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "95ecc660-3eb6-4250-a808-fa516c693946": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cig-cozy-gallery-7459xl-70097728_2475288349160990_6687430824857277372_n-xxl.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Custom Installs",
+            "title": "Spas + Salons + Homes + More!",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "View Gallery",
+            "link": "shopify:\/\/pages\/gallery-custom-installs",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "bfcbcbef-f5e4-46fb-8461-d8dfdc7fc68c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0400-Production2-TMLVAN-079.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Hotel Use",
+            "title": "Using TML in a Hotel",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "View Gallery",
+            "link": "shopify:\/\/pages\/gallery-hotel",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "d56f76cf-08ed-40a8-a5dc-31a697ae8498": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tml-creative-use.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Creative Use",
+            "title": "Getting Creative with TML",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "View Gallery",
+            "link": "shopify:\/\/pages\/gallery-creative-use",
+            "text_alignment": "position--left position--bottom"
+          }
+        }
+      },
+      "block_order": [
+        "template--14759328022598__265620fb-f44b-46c0-8b7e-509e496fdd41-1682952543c432fb08-0",
+        "template--14759328022598__265620fb-f44b-46c0-8b7e-509e496fdd41-1682952543c432fb08-1",
+        "b22934be-3b70-432e-84a2-7333f6e97f30",
+        "template--14759328022598__265620fb-f44b-46c0-8b7e-509e496fdd41-1682952543c432fb08-2",
+        "1b604d6c-533b-4046-917f-b07afec27add",
+        "30f431dd-ce4d-439d-bbcd-3ac715b205ae",
+        "95ecc660-3eb6-4250-a808-fa516c693946",
+        "bfcbcbef-f5e4-46fb-8461-d8dfdc7fc68c",
+        "d56f76cf-08ed-40a8-a5dc-31a697ae8498"
+      ],
+      "custom_css": [
+        ".button {background-color: #4caf50; \/* Green *\/ border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;}"
+      ],
+      "settings": {
+        "title": "View TML in Action",
+        "grid": 4,
+        "desktop_image_height": 400,
+        "mobile_image_height": 260,
+        "title_size": 36,
+        "enable_margin": true,
+        "full_width": false,
+        "enable_carousel": false,
+        "overlay_style_tint": true,
+        "alternate_bg_color": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "46330837-a1d5-4289-9fd3-ee7b6ec60647",
+    "gallery_xF4Hht",
+    "265620fb-f44b-46c0-8b7e-509e496fdd41"
+  ]
+}

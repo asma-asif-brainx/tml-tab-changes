@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "0da0bff1-60c8-4e4a-8dca-8b1151d9c5fe": {
+          "type": "image",
+          "settings": {
+            "collection": "makeup-lights-for-professional-makeup-artists"
+          }
+        },
+        "bff50f5e-e2e5-4c70-869e-26fe8681720a": {
+          "type": "image",
+          "settings": {
+            "collection": "key-light-kits"
+          }
+        },
+        "1f4da8c7-eb15-4ec3-8235-185451c33af5": {
+          "type": "image",
+          "settings": {
+            "collection": "tml-bags"
+          }
+        },
+        "87bdc970-e08d-4e83-a096-373fe7277a74": {
+          "type": "image",
+          "settings": {
+            "collection": "accessories-for-the-makeup-light"
+          }
+        },
+        "91ed8be3-083b-4401-8ea3-71e7a2674ee9": {
+          "type": "image",
+          "settings": {
+            "collection": "mounting-options"
+          }
+        },
+        "60038ad4-1e32-4246-a984-87192048d0f3": {
+          "type": "image",
+          "settings": {
+            "collection": "vanities"
+          }
+        }
+      },
+      "block_order": [
+        "0da0bff1-60c8-4e4a-8dca-8b1151d9c5fe",
+        "bff50f5e-e2e5-4c70-869e-26fe8681720a",
+        "1f4da8c7-eb15-4ec3-8235-185451c33af5",
+        "87bdc970-e08d-4e83-a096-373fe7277a74",
+        "91ed8be3-083b-4401-8ea3-71e7a2674ee9",
+        "60038ad4-1e32-4246-a984-87192048d0f3"
+      ],
+      "settings": {
+        "title": "Collections",
+        "layout": "rows",
+        "grid": 3,
+        "collections_per_page": 24,
+        "display_type": "selected"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

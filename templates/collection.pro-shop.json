@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_collection_content": false,
+        "show_collection_image": false,
+        "description_position": "top",
+        "layout": "rows",
+        "grid": 3,
+        "grid_mobile": "2",
+        "products_per_page": 18,
+        "enable_infinite_scroll": true,
+        "show_vendor": false,
+        "show_filter_counts": false,
+        "show_filter_deadends": false,
+        "ajax_products": true,
+        "filter_mode": "none",
+        "sticky_sidebar": true,
+        "collapse_filters_method": "none",
+        "collapse_sort_by": true,
+        "enable_sorting": false,
+        "show_featured_in_sort": false
+      }
+    },
+    "custom_article_header_jxhKfx": {
+      "type": "custom-article-header",
+      "settings": {
+        "background_color": "#e9e9e9",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "content_max_width": 800,
+        "text_alignment": "center",
+        "subheading": "THE MAKEUP LIGHT,",
+        "subheading_color": "#000000",
+        "subheading_font_size": 36,
+        "subheading_font_weight": "400",
+        "subheading_font_style": "italic",
+        "heading": "“...The Door To Creativity Opens Wide.”",
+        "heading_color": "#000000",
+        "heading_font_size": 36,
+        "mobile_heading_font_size": 24,
+        "heading_font_weight": "700"
+      }
+    },
+    "rich_text_dK4XjQ": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "add-header-points": false,
+        "header-point-one": "",
+        "header-point-two": "",
+        "header-point-three": "",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p><strong>Let’s get real: <\/strong>your greatest power as an artist is your ability to see.\u2028<\/p><p>When you cannot see, you end up creating from your head instead of using your eye. But when an artist can see, the door to creativity opens wide.\u2028<\/p><p>Other lighting companies are happy to sell you cheap, ineffective lights, preying on the fact that most artists don’t know what good lighting looks like. They keep you in the dark—literally and figuratively.\u2028<\/p><p>TML was built to change that. Designed by Oscar-winning makeup artist <a href=\"https:\/\/themakeuplight.com\/pages\/about-tml\" title=\"https:\/\/themakeuplight.com\/pages\/about-tml\">Vivian Baker<\/a> and her photographer husband <a href=\"https:\/\/themakeuplight.com\/pages\/about-tml\" title=\"https:\/\/themakeuplight.com\/pages\/about-tml\">Michael Astalos<\/a>, TML lighting had to meet the critical demands of her artistry. Now these lights are available for all artists..<\/p><p>Explore the tabs below to learn more about the science behind our lights, our versatile panels, and mounting options. Once you’re ready, browse our top recommendations and best-sellers, chosen for their benefits and features.<\/p>",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "custom",
+        "color_bg": "#f2f2f2",
+        "color_text": "",
+        "reduce_padding": true,
+        "increase_text_width": true,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": false,
+        "custom_background_color": "rgba(0,0,0,0)",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": false,
+        "text_font_size": 16,
+        "mobile_text_font_size": 14,
+        "text_font_weight": "400",
+        "text_color": "#010202",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": false
+      }
+    },
+    "tml_kits_collection_PFEQbW": {
+      "type": "tml-kits-collection",
+      "blocks": {
+        "kit_item_jDACD7": {
+          "type": "kit_item",
+          "settings": {
+            "title": "Starter Kits",
+            "image": "shopify:\/\/shop_images\/Starter-Kits-BW.jpg",
+            "hover_image": "shopify:\/\/shop_images\/Starter-Kits-rollover.jpg",
+            "link": "https:\/\/themakeuplight.com\/collections\/starter-kits",
+            "button_text": "View All",
+            "border_color": "#198225",
+            "border_width": 2
+          }
+        },
+        "kit_item_QTnpA4": {
+          "type": "kit_item",
+          "settings": {
+            "title": "Pro Kits",
+            "image": "shopify:\/\/shop_images\/Pro-Kits-BW.jpg",
+            "hover_image": "shopify:\/\/shop_images\/Pro-Kits-rollover.jpg",
+            "link": "https:\/\/themakeuplight.com\/collections\/pro-kits",
+            "button_text": "View All",
+            "border_color": "#0047d0",
+            "border_width": 2
+          }
+        },
+        "kit_item_RRQw3A": {
+          "type": "kit_item",
+          "settings": {
+            "title": "Master Kits",
+            "image": "shopify:\/\/shop_images\/Master-Kits-BW.jpg",
+            "hover_image": "shopify:\/\/shop_images\/Master-Kits-rollover.jpg",
+            "link": "https:\/\/themakeuplight.com\/collections\/master-kits",
+            "button_text": "View All",
+            "border_color": "#f5dfc3",
+            "border_width": 2
+          }
+        }
+      },
+      "block_order": [
+        "kit_item_jDACD7",
+        "kit_item_QTnpA4",
+        "kit_item_RRQw3A"
+      ],
+      "settings": {
+        "title": "TML Kits",
+        "background_color": "#f2f2f2",
+        "text_color": "#000000",
+        "button_background_color": "#d3d3d3",
+        "button_text_color": "#000000"
+      }
+    },
+    "tml_featured_kits_7TPP7U": {
+      "type": "tml-featured-kits",
+      "blocks": {
+        "kit_item_37ypeA": {
+          "type": "kit_item",
+          "settings": {
+            "title": "Science of Light",
+            "link": "https:\/\/themakeuplight.com\/pages\/the-trifecta-of-lighting?_ab=0&_fd=0&_sc=1",
+            "button_text": "Learn More"
+          }
+        },
+        "kit_item_BBgbEt": {
+          "type": "kit_item",
+          "settings": {
+            "title": "Light Panels",
+            "link": "https:\/\/themakeuplight.com\/pages\/tml-light-panel-selection",
+            "button_text": "Learn More"
+          }
+        },
+        "kit_item_akCebc": {
+          "type": "kit_item",
+          "settings": {
+            "title": "Mounting Options",
+            "link": "https:\/\/themakeuplight.com\/pages\/tml-light-mounting-options",
+            "button_text": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "kit_item_37ypeA",
+        "kit_item_BBgbEt",
+        "kit_item_akCebc"
+      ],
+      "settings": {
+        "title": "Need more information to help you decide?",
+        "subtitle": "Explore the tabs below to learn more about the science behind our lights, our versatile panels, and mounting options. Once you're ready, browse our top recommendations and best-sellers, chosen for their benefits and features."
+      }
+    },
+    "custom_featured_collection_8XVy86": {
+      "type": "custom-featured-collection",
+      "settings": {
+        "title": "TML Recommends",
+        "product_list": [
+          "key-light-stand-kit",
+          "key-light-2-0-starter-kit-with-suction-mount",
+          "eyelight-stand-kit",
+          "eyelight-magic-kit",
+          "jet-light-kit",
+          "key-light-2-0-pro-package",
+          "eyelight-pro-kit",
+          "key-light-2-0-master-package"
+        ]
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_article_header_jxhKfx",
+    "rich_text_dK4XjQ",
+    "tml_kits_collection_PFEQbW",
+    "tml_featured_kits_7TPP7U",
+    "custom_featured_collection_8XVy86"
+  ]
+}

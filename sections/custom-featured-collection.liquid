@@ -1,0 +1,549 @@
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+{% style %}
+  .swiper-container {
+    position: static !important;
+  }
+  .swiper-button-next {
+    left: 98%;
+  }
+  .product-card__title {
+    flex: 1;
+  }
+  .swiper-slide {
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .swiper-button-next:after {
+    content: url('https://cdn.shopify.com/s/files/1/0002/3153/8705/files/grommet-icons_next.png?v=1729676547') !important;
+    bottom: 12%;
+    position: relative;
+  }
+  .swiper-button-prev:after {
+    content: url('https://cdn.shopify.com/s/files/1/0002/3153/8705/files/grommet-icons_next_1.png?v=1729676546') !important;
+    bottom: 12%;
+    position: relative;
+  }
+  .swiper-button-prev {
+    background: black !important;
+    opacity: 1 !important;
+    left: -1%;
+  }
+  .swiper-button-next {
+    background: black !important;
+  }
+  .custom-featured-collection__header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .custom-featured-collection__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+  }
+  .product-card__tag {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .product-card__tag--best-seller {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  .product-card__tag--pro-choice {
+    background-color: #CA8300;
+  }
+  .product-card__tag--tml-recommends {
+    background-color: #CA83004D;
+    color: #333;
+  }
+  .product-card__image-wrapper {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .product-card__image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .product-card__info {
+    padding: 15px;
+    text-align: left;
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-card__title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .product-card__price-area {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .product-card__price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .product-card__price--current {
+    color: #000;
+  }
+  .product-card__price--original {
+    text-decoration: line-through;
+    color: #656464;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .product-card__price-save {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #cc0000;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  .product-card__buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .product-card__button {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .product-card__button--primary {
+    background-color: #000;
+    color: #fff;
+  }
+  .product-card__button--secondary {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .swiper-button-prev svg,
+  .swiper-button-next svg {
+    width: 20px;
+    height: 20px;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: #000;
+  }
+  .custom-featured-collection {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 30px;
+  }
+  @media screen and (max-width: 767px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 40px;
+      height: 40px;
+    }
+    .custom-featured-collection {
+      padding-bottom: 0;
+    }
+    .swiper-button-prev {
+      left: -6%;
+    }
+    .swiper-button-next {
+      left: 93%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .custom-featured-collection__title {
+      font-size: 28px;
+    }
+    .product-card__image-wrapper {
+      height: 250px;
+    }
+    .product-card__title {
+      font-size: 18px;
+    }
+    .product-card__price {
+      font-size: 18px;
+    }
+    .product-card__price--original {
+      font-size: 14px;
+    }
+    .product-card__button {
+      font-size: 14px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 35px;
+      height: 35px;
+    }
+    .swiper-button-prev svg,
+    .swiper-button-next svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .product-card__image-wrapper {
+      height: 300px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 40px;
+      height: 40px;
+    }
+    .swiper-button-prev svg,
+    .swiper-button-next svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+{% endstyle %}
+
+<div class="custom-featured-collection">
+  <div class="custom-featured-collection__header">
+    <h2 class="custom-featured-collection__title">{{ section.settings.title }}</h2>
+  </div>
+
+  <div class="product-slider swiper-container">
+    <div class="product-list swiper-wrapper">
+      {% for product in section.settings.product_list %}
+        <div class="product-card swiper-slide">
+          {% if product.tags contains 'best-seller' %}
+            <div class="product-card__tag product-card__tag--best-seller">
+              Best Seller
+            </div>
+          {% elsif product.tags contains 'pro-choice' %}
+            <div class="product-card__tag product-card__tag--pro-choice">
+              Pro's Choice
+            </div>
+          {% elsif product.tags contains 'tml-recommends' %}
+            <div class="product-card__tag product-card__tag--tml-recommends">
+              TML Recommends
+            </div>
+          {% endif %}
+
+          <a href="{{ product.url }}" class="product-card__image-wrapper">
+            <img
+              src="{{ product.featured_image | img_url: '400x400', crop: 'center' }}"
+              alt="{{ product.title }}"
+              class="product-card__image"
+              width="400"
+              height="400"
+              loading="lazy">
+          </a>
+          <div class="product-card__info">
+            <h3 class="product-card__title">{{ product.title }}</h3>
+            <div class="product-card__price-area">
+              {% if product.metafields.custom.special_price != blank %}
+                {% assign special_price_string = product.metafields.custom.special_price | remove: '$' | remove: ',' | strip %}
+                {% assign special_price = special_price_string | times: 100 | round %}
+                {% comment %} <span class="product-card__price product-card__price--current">{{ product.price | money }}</span>
+                                    <span class="product-card__price product-card__price--original">{{ special_price | money }}</span>
+                                    {% assign savings = special_price | minus: product.price %}
+                                  <span class="product-card__price-save">Save {{ savings | money }}</span> {% endcomment %}
+                <span
+                  class="product-card__price-save"
+                  data-base-currency="{{ shop.currency }}"
+                  data-special-price="{{ special_price }}"
+                  data-base-price="{{ product.price }}"></span>
+              {% else %}
+                <span class="product-card__price">{{ product.price | money }}</span>
+              {% endif %}
+            </div>
+            <div class="product-card__buttons">
+              <button class="product-card__button product-card__button--primary js-add-to-cart" data-variant-id="{{ product.variants.first.id }}">Add to cart</button>
+              <a
+                href="{{ product.url }}"
+                class="product-card__button product-card__button--secondary js-quick-view"
+                data-cc-quick-buy="{{ product.url }}">Quick view</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Custom Collection",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "TML Recommends"
+      }, {
+        "type": "product_list",
+        "id": "product_list",
+        "label": "Products",
+        "limit": 12
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Featured Collection",
+        "category": "Collection"
+      }
+    ]
+  }
+{% endschema %}
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const productSlider = new Swiper('.product-slider', {
+        slidesPerView: 3,
+        spaceBetween: 15,
+        slidesPerGroup: 3,
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        breakpoints: {
+          767: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          990: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+  
+      // Add to cart functionality
+      document.querySelectorAll('.js-add-to-cart').forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const variantId = this.dataset.variantId;
+          addToCart(variantId);
+        });
+      });
+  
+      // Quick view functionality
+      document.querySelectorAll('.js-quick-view').forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const productUrl = this.getAttribute('data-cc-quick-buy');
+          if (productUrl) {
+            // Use the theme's built-in quick view functionality
+            fetch(productUrl)
+              .then(response => response.text())
+              .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const quickBuyContent = doc.querySelector('.quickbuy-content');
+                
+                if (quickBuyContent) {
+                  // Create and show the modal
+                  const modal = document.createElement('div');
+                  modal.className = 'theme-modal theme-modal--fullscreen';
+                  modal.innerHTML = `
+                    <div class="inner">
+                      <a href="#" data-modal-close class="modal-close">&times;</a>
+                      <div class="quickbuy-content-container"></div>
+                    </div>
+                  `;
+                  modal.querySelector('.quickbuy-content-container').appendChild(quickBuyContent);
+                  document.body.appendChild(modal);
+                  
+                  // Initialize the quick buy content
+                  if (typeof theme.initQuickBuy === 'function') {
+                    theme.initQuickBuy();
+                  }
+                  
+                  // Show the modal
+                  setTimeout(() => {
+                    modal.classList.add('reveal');
+                  }, 10);
+                  
+                  // Close modal functionality
+                  modal.querySelector('[data-modal-close]').addEventListener('click', (e) => {
+                    e.preventDefault();
+                    modal.classList.remove('reveal');
+                    setTimeout(() => {
+                      modal.remove();
+                    }, 300);
+                  });
+                }
+              })
+              .catch(error => console.error('Error:', error));
+          }
+        });
+      });
+  
+      function addToCart(variantId) {
+        fetch('/cart/add.js', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            items: [{
+              id: variantId,
+              quantity: 1
+            }]
+          })
+        })
+        .then(response => response.json())
+        .then(data => {
+          console.log('Product added to cart:', data);
+
+          const product = data.items[0];
+          console.log('product', product);
+
+          const thumbUrl = theme.Shopify.formatImage(product.image, "300x");
+          const img = new Image();
+          img.src = thumbUrl;
+
+          let variantHtml = "";
+          variantHtml += `<p class="cart-product__content__price"><span class="current-price theme-money">${theme.Shopify.formatMoney(product.price, theme.money_format_with_code_preference)}</span></p>`;
+
+          let offset = 25;
+          const nav = theme.Nav();
+          if (nav.bar.getPositionSetting() !== "inline") {
+            offset = nav.bar.height();
+          }
+
+          let imgAlt = "";
+          if (product.featured_image && product.featured_image.alt) {
+            imgAlt = product.featured_image.alt;
+          }
+          
+          showThemeModal(
+            [
+              '<div id="added-to-cart" class="theme-modal theme-modal--small" role="dialog" aria-modal="true" aria-labelledby="added-to-cart-title">',
+              `<div class="inner" style="top:${offset}px">`,
+              '<a href="#" data-modal-close class="modal-close">&times;</a>',
+              '<h4 id="added-to-cart-title">' +
+                theme.icons.tick +
+                theme.strings.productAddedToCart +
+                "</h4>",
+              '<div class="cart-product">',
+              `<div class="cart-product__image"><img src="${thumbUrl}" alt="${imgAlt}"/></div>`,
+              '<div class="cart-product__content">' +
+                '<p class="cart-product__content__title">',
+                  product.product_title,
+                "</p>" + `${variantHtml ? variantHtml : ""}` + "</div>",
+              "</div>",
+              `<p class="links links--no-checkout">`,
+              '<a href="' +
+                theme.routes.cart_url +
+                `" class="button">` +
+                theme.strings.viewCart +
+                "</a>",
+              '<a href="' +
+                theme.routes.checkout +
+                '" class="button button--checkout" [data-cc-checkout-button]>' +
+                theme.strings.popupCheckout +
+                "</a> ",
+              "</p>",
+              "</div>",
+              "</div>",
+            ].join(""),
+            "added-to-cart",
+            null
+          );
+          // Redirect to the cart page
+          // window.location.href = '/cart';
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
+      }
+
+      const saveContainerArr = document.querySelectorAll(".product-card__price-save");
+      saveContainerArr.forEach(handleCurrency)
+
+      function handleCurrency(el) {
+        const parent = el.parentNode;
+        const baseCurrency = el.dataset.baseCurrency;
+        const basePrice = el.dataset.basePrice * 1;
+        const basePriceFormatted = theme.Shopify.formatMoney(basePrice, theme.money_format_with_code_preference);
+        const specialPrice = el.dataset.specialPrice * 1;
+        const specialPriceConvertedFormatted = theme.Shopify.formatMoney(theme.Shopify.convertCurrency(specialPrice, baseCurrency), theme.money_format_with_code_preference);
+        const converted = theme.Shopify.convertCurrency(specialPrice, baseCurrency);
+        const saved = converted.toFixed(2) - basePrice;
+        const savedFormatted = theme.Shopify.formatMoney(saved, theme.money_format_with_code_preference);
+        const template = `
+          <span class="product-card__price product-card__price--current">${basePriceFormatted}</span>
+          <span class="product-card__price product-card__price--original">${specialPriceConvertedFormatted}</span>
+          <span class="product-card__price-save">Save ${savedFormatted}</span>
+        `;
+        parent.innerHTML = template;
+      }
+    });
+</script>

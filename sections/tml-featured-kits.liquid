@@ -1,0 +1,83 @@
+{{ 'section-tml-featured-kits.css' | asset_url | stylesheet_tag }}
+
+<div class="tml-featured-kits">
+  <div class="tml-featured-kits__container">
+    <h2 class="tml-featured-kits__title">{{ section.settings.title }}</h2>
+    <p class="tml-featured-kits__subtitle">{{ section.settings.subtitle }}</p>
+    
+    <div class="tml-featured-kits__grid">
+      {% for block in section.blocks %}
+        <a href="{{ block.settings.link }}" class="tml-featured-kits__item" {{ block.shopify_attributes }}>
+          <h3 class="tml-featured-kits__item-title">{{ block.settings.title }}</h3>
+          <span class="tml-featured-kits__read-more">
+            {{ block.settings.button_text }}
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-arrow" viewBox="0 0 14 10">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
+            </svg>
+          </span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "TML Featured Kits",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Need more information to help you decide?"
+    },
+    {
+      "type": "textarea",
+      "id": "subtitle",
+      "label": "Section Subtitle",
+      "default": "Explore the tabs below to learn more about the science behind our lights, our versatile panels, and mounting options. Once you're ready, browse our top recommendations and best-sellers, chosen for their benefits and features."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "kit_item",
+      "name": "Kit Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Science of Light"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Read More Details"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "TML Featured Kits",
+      "blocks": [
+        {
+          "type": "kit_item"
+        },
+        {
+          "type": "kit_item"
+        },
+        {
+          "type": "kit_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

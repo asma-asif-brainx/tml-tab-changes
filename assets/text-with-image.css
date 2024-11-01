@@ -1,0 +1,34 @@
+.text-with-image {
+  padding: 40px 20px;
+  display: flex;
+}
+
+.text-with-image__container {
+  margin: 0 auto;
+}
+
+.text-with-image__pre-text,
+.text-with-image__post-text {
+  margin: 0 auto 20px;
+}
+
+.text-with-image__image-container {
+  margin: 20px auto;
+}
+
+.text-with-image__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .text-with-image {
+    padding: 30px 15px;
+  }
+
+  .text-with-image__pre-text,
+  .text-with-image__post-text {
+    font-size: 14px !important;
+  }
+}

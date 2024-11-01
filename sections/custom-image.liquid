@@ -1,0 +1,267 @@
+<style>
+  .custom-image-{{ section.id }} {
+    background-color: {{ section.settings.background_color }};
+    padding: {{ section.settings.padding }}px;
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .custom-image-{{ section.id }} .container {
+    width: 100%;
+    max-width: {{ section.settings.container_width }}px;
+    margin: 0 auto;
+    background-color: {{ section.settings.container_color }};
+    border-radius: {{ section.settings.border_radius }}px;
+    padding: {{ section.settings.inner_padding }}px;
+    box-shadow: {{ section.settings.box_shadow }};
+  }
+  .custom-image-{{ section.id }} h2 {
+    font-size: clamp(18px, 5vw, {{ section.settings.title_size }}px);
+    margin-bottom: 20px;
+    font-weight: {{ section.settings.title_weight }};
+    text-transform: {{ section.settings.title_transform }};
+    color: {{ section.settings.title_color }};
+  }
+  .custom-image-{{ section.id }} .image-placeholder {
+    width: 100%;
+    max-width: {{ section.settings.image_max_width }}px;
+    height: auto;
+    aspect-ratio: {{ section.settings.image_max_width }} / {{ section.settings.image_height }};
+    margin: 0 auto;
+    background-color: {{ section.settings.placeholder_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: {{ section.settings.image_border_radius }}px;
+    overflow: hidden;
+  }
+  .custom-image-{{ section.id }} .featured-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: {{ section.settings.image_border_radius }}px;
+  }
+
+  {% if section.settings.apply-bottom-padding %}
+    #shopify-section-{{ section.id }} .custom-img-main {
+      padding-bottom: {{ section.settings.bottom-padding }}px;
+    }
+  {% endif %}
+
+  @media screen and (max-width: 768px) {
+    .custom-image-{{ section.id }} {
+      padding-left: {{ section.settings.padding-mobile }}px;
+      padding-right: {{ section.settings.padding-mobile }}px;
+    }
+    .custom-image-{{ section.id }} .container {
+      padding: calc({{ section.settings.inner_padding }}px / 2);
+    }
+  }
+</style>
+
+<div class="custom-img-main custom-image-{{ section.id }}">
+  <div class="container">
+    <h2>{{ section.settings.title }}</h2>
+    
+    <div class="image-placeholder">
+      {% if section.settings.image != blank %}
+        {{ section.settings.image | image_url: width: section.settings.image_max_width | image_tag:
+          class: 'featured-image',
+          loading: 'lazy',
+          width: section.settings.image_max_width,
+          height: section.settings.image_height
+        }}
+      {% else %}
+        <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="100" height="100" fill="{{ section.settings.placeholder_color }}"/>
+          <path d="M35 40H65M35 50H65M35 60H65" stroke="#FFFFFF" stroke-width="2"/>
+        </svg>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Image",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Custom Image Section"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f0f0f0"
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Section Padding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding-mobile",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Section Padding Mobile",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "min": 300,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "label": "Container Max Width",
+      "default": 1200
+    },
+    {
+      "type": "color",
+      "id": "container_color",
+      "label": "Container Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Container Border Radius",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "inner_padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Container Inner Padding",
+      "default": 40
+    },
+    {
+      "type": "text",
+      "id": "box_shadow",
+      "label": "Box Shadow",
+      "default": "0 4px 6px rgba(0,0,0,0.1)"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 16,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "label": "Title Max Font Size",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "title_weight",
+      "label": "Title Font Weight",
+      "options": [
+        { "value": "normal", "label": "Normal" },
+        { "value": "bold", "label": "Bold" }
+      ],
+      "default": "bold"
+    },
+    {
+      "type": "select",
+      "id": "title_transform",
+      "label": "Title Text Transform",
+      "options": [
+        { "value": "none", "label": "None" },
+        { "value": "uppercase", "label": "Uppercase" },
+        { "value": "lowercase", "label": "Lowercase" },
+        { "value": "capitalize", "label": "Capitalize" }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#000000"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "image_max_width",
+      "min": 200,
+      "max": 1500,
+      "step": 50,
+      "unit": "px",
+      "label": "Image Max Width",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "image_height",
+      "min": 100,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Image Height",
+      "default": 300
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Image Border Radius",
+      "default": 5
+    },
+    {
+      "type": "color",
+      "id": "placeholder_color",
+      "label": "Placeholder Color",
+      "default": "#f0f0f0"
+    },
+    {
+      "type" : "checkbox",
+      "id" :"apply-bottom-padding",
+      "label" : "Apply bottom padding",
+      "default" : false
+    },
+    {
+      "type": "range",
+      "id": "bottom-padding",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Image",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

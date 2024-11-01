@@ -1,0 +1,663 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gJaYic": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TenYearSale_03-2024_dtop-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/TenYearSale-03_2024-mobl-2.jpg",
+            "slide_link": "shopify:\/\/collections",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "Shop The Sale",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "1c7bb033-ddba-4052-ad1c-856a077c1d11": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BLKFriday_2023_slider-E.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BLKFriday_2023_mobl-E.jpg",
+            "slide_link": "https:\/\/themakeuplight.com\/collections\/black-friday-sale",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "Shop the Sale",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "image_JHTTxN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LUXeClkCon24_2024_desk.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LUXeClkCon24_2024_mobl.jpg",
+            "slide_link": "https:\/\/themakeuplight.com\/collections\/pro-shop",
+            "subheading": "Welcome",
+            "title": "Seeing is Confidence",
+            "title_size": 46,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>Professional & Consumer Lighting<\/p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "1482141870755-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0390-926-1-1-1400sq.jpg",
+            "slide_link": "shopify:\/\/collections\/vanities",
+            "subheading": "home makeup lighting",
+            "title": "Vanities & More",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>shop our home makeup line<\/p>",
+            "enlarge_text": true,
+            "button_label": "Shop this",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "1482141870755-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0476-085-1400-C.jpg",
+            "slide_link": "shopify:\/\/collections\/pro-shop",
+            "subheading": "pro makeup lighting",
+            "title": "Professional lights \nfor Professional artists",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>shop our pro line<\/p>",
+            "enlarge_text": true,
+            "button_label": "Shop this",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "image_KyEWyT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LUXeBasic_2024_build.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LUXeBasic_2024_build-mobl.jpg",
+            "slide_link": "shopify:\/\/products\/tml-meira-home-luxe",
+            "subheading": "",
+            "title": "",
+            "title_size": 42,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>Vanities for Your Home<\/p>",
+            "enlarge_text": false,
+            "button_label": "Shop Meira Home",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "1499426736627": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PICtrailers-tmlcustom-feature-2-SQ.jpg",
+            "slide_link": "shopify:\/\/pages\/custom-lighting-contact-form",
+            "subheading": "Custom Lighting",
+            "title": "Home & Pro\nCustom Lighting",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>connect with our custom team<\/p>",
+            "enlarge_text": true,
+            "button_label": "Contact Us",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        },
+        "539d856e-aeb4-4b99-8b06-8117bc4bd524": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRslider-01-desk-_0001_brslider-base.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BRslider-01-mob-_0001_brslidermob-base.jpg",
+            "slide_link": "shopify:\/\/collections\/back-room",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "SHOP THE BACKROOM",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "image_gJaYic",
+        "1c7bb033-ddba-4052-ad1c-856a077c1d11",
+        "image_JHTTxN",
+        "1482141870755-1",
+        "1482141870755-0",
+        "image_KyEWyT",
+        "1499426736627",
+        "539d856e-aeb4-4b99-8b06-8117bc4bd524"
+      ],
+      "settings": {
+        "height": "full",
+        "height_desktop": 800,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 4
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Seeing is Confidence",
+        "add-header-points": false,
+        "header-point-one": "",
+        "header-point-two": "",
+        "header-point-three": "",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p><em>Light is the foundation<\/em> of art, makeup, photography, and so many forms of creativity.<\/p><p><strong>For your professional work<\/strong>, The Makeup Light's <a href=\"https:\/\/themakeuplight.com\/collections\/pro-shop\" title=\"Pro Shop\">Pro Line of LED light panel and kits<\/a> and accessories keeps your work in the best light. <strong>For your home<\/strong>, our <a href=\"https:\/\/themakeuplight.com\/collections\/home-shop\" title=\"Home Shop\">Home Line of Vanities <\/a>and vanity solutions bring professional-grade light into your home.<\/p>",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": "",
+        "reduce_padding": false,
+        "increase_text_width": false,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": false,
+        "custom_background_color": "transparent",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": false,
+        "text_font_size": 16,
+        "mobile_text_font_size": 14,
+        "text_font_weight": "400",
+        "text_color": "#010202",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": false
+      }
+    },
+    "gallery": {
+      "type": "gallery",
+      "blocks": {
+        "ae868f1c-1ae1-4e5d-b87b-df444da58de8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tml-meira-home-luxe-clickcon-blue_7ad4e057-cbae-429f-a76a-ad4e99612f69.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Luxury Home Vanity",
+            "title": "Meira Home LUXe",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/products\/tml-meira-home-luxe",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1601554848772-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/clickcon-chicago-photography-light.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Photography + Makeup",
+            "title": "The Jet Light",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/products\/jet-light-kit",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1601560664254": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0456-sisteract-1295.jpg",
+            "video_external": "",
+            "enlarge_image": true,
+            "subheading": "Home Makeup Vanity",
+            "title": "TML Meira",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/products\/tml-meira",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1601554848772-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/portable-professional-makeup-light.jpg",
+            "video_external": "",
+            "enlarge_image": true,
+            "subheading": "Professional Artistry",
+            "title": "Key Light",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/collections\/makeup-lights-for-professional-makeup-artists",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1601554848772-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eyelight-mirror-mounted-vanity.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Instant Home Makeup Vanity",
+            "title": "The Eyelight",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/products\/eyelight-magic-kit",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "4092e141-9b04-4f6b-b44e-3a63466cb549": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-makeup-light-key-light-sculpting.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Sculpting + Prosthetics",
+            "title": "Key Light",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/products\/key-light-2-0-led-panel-gold",
+            "text_alignment": "position--left position--bottom"
+          }
+        }
+      },
+      "block_order": [
+        "ae868f1c-1ae1-4e5d-b87b-df444da58de8",
+        "1601554848772-0",
+        "1601560664254",
+        "1601554848772-2",
+        "1601554848772-1",
+        "4092e141-9b04-4f6b-b44e-3a63466cb549"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 2,
+        "desktop_image_height": 400,
+        "mobile_image_height": 400,
+        "title_size": 40,
+        "enable_margin": true,
+        "full_width": true,
+        "enable_carousel": true,
+        "overlay_style_tint": true,
+        "alternate_bg_color": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Professional LED Light Panels",
+        "collection": "makeup-lights-for-professional-makeup-artists",
+        "layout": "carousel",
+        "show_vendor": false,
+        "grid": 3,
+        "rows": 1,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "1648220659c91ed362-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "vanities"
+          }
+        },
+        "1648220659c91ed362-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "key-light-kits"
+          }
+        },
+        "1648220659c91ed362-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "mounting-options"
+          }
+        },
+        "1648220659c91ed362-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "makeup-lights-for-professional-makeup-artists"
+          }
+        },
+        "1648220659c91ed362-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories-for-the-makeup-light"
+          }
+        }
+      },
+      "block_order": [
+        "1648220659c91ed362-3",
+        "1648220659c91ed362-0",
+        "1648220659c91ed362-1",
+        "1648220659c91ed362-2",
+        "1648220659c91ed362-4"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "layout": "carousel",
+        "grid": 4,
+        "grid_mobile": "2",
+        "show_view_all": true,
+        "alternate_bg_color": true
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "1601538737164-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "Kristopher Buckle\nMakeup Artist",
+            "text": "<p>\"It’s a perfectly balanced white light to do your makeup in. It’s the best light to do your makeup.\"<\/p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": "",
+            "image2_caption": "",
+            "layout": "left"
+          }
+        },
+        "1601538737164-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "Charlotte Tilbury\nMakeup Artist",
+            "text": "<p>\"Thank you Blake [Lively] for introducing me to the best kept secret, The Makeup Light. It's changed my life!\"<\/p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": "",
+            "image2_caption": "",
+            "layout": "right"
+          }
+        }
+      },
+      "block_order": [
+        "1601538737164-0",
+        "1601538737164-1"
+      ],
+      "settings": {
+        "title": "",
+        "button_style": "secondary",
+        "alternate_bg_color": false
+      }
+    },
+    "background-video": {
+      "type": "background-video",
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=UExmZGiiY00&list=PLShKr_SGyv_JEOJwNFTGWIFF3N0RvZR2Z",
+        "subheading": "",
+        "title": "more than illumination",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "overlay_position": "position--hcenter position--bottom",
+        "height": "fixed",
+        "height_desktop": 620,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style_tint": false
+      }
+    },
+    "text-columns-with-images": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "1601557215944-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom_Lighting_Solution.jpg",
+            "image_width": 700,
+            "title": "Custom Pro Lighting",
+            "text": "<p>For when you want something truly customized for your salon, spa, makeup trailer, green room, makeup room, or more! Contact our team to get started today.<\/p>",
+            "button_label": "Get My Quote",
+            "link": "shopify:\/\/pages\/custom-lighting-contact-form"
+          }
+        },
+        "1601557215944-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/luxglassdark-02-1.jpg",
+            "image_width": 700,
+            "title": "Home Makeup Lighting",
+            "text": "<p>Looking for a daylight-balanced LED lighted makeup vanity? TML Meira and Meira Home LUXe illuminate your face so you can truly see! Check out our collection of vanities.<\/p>",
+            "button_label": "See More Vanities",
+            "link": "shopify:\/\/collections\/vanities"
+          }
+        },
+        "1601557215944-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/0390-ELmirrors-1847-CT-SQ.jpg",
+            "image_width": 700,
+            "title": "Travel Light",
+            "text": "<p>On the go and want a light that does it all? The Eyelight is the perfect LED light panel for traveling artists and tourists alike! Turn any mirror into a vanity.<\/p>",
+            "button_label": "Shop the Eyelight",
+            "link": "shopify:\/\/products\/eyelight-magic-kit"
+          }
+        }
+      },
+      "block_order": [
+        "1601557215944-2",
+        "1601557215944-0",
+        "1601557215944-1"
+      ],
+      "settings": {
+        "title": "Daylight-Balanced LED Light",
+        "text_alignment": "center",
+        "button_style": "secondary",
+        "media_shape": "natural",
+        "alternate_bg_color": false,
+        "full_width": false
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "Personalize Your Light",
+        "title": "Custom TML Lighting",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>From makeup rooms to home sitting rooms, custom lighting adds ambiance, boosts the brightness, and brings sunshine indoors.<\/p><p>Contact our team to start working on your custom lighting.<\/p>",
+        "button_label": "GET MY QUOTE",
+        "button_link": "shopify:\/\/pages\/custom-lighting-contact-form",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/StarWaggons-1_1440SQ.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "#f6f6f6",
+        "color_text": ""
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "1648223128d36c17cb-0": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "1648223128d36c17cb-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1648223128d36c17cb-2": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "1648223128d36c17cb-3": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "1648223128d36c17cb-4": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true
+          }
+        },
+        "1648223128d36c17cb-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "1648223128d36c17cb-0",
+        "1648223128d36c17cb-1",
+        "1648223128d36c17cb-2",
+        "1648223128d36c17cb-3",
+        "1648223128d36c17cb-4",
+        "1648223128d36c17cb-5"
+      ],
+      "settings": {
+        "product": "tml-meira-home-luxe",
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "enable_video_looping": false,
+        "highlight_selected_media": true
+      }
+    },
+    "featured-blog": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "title": "Blog posts",
+        "blog": "",
+        "post_limit": 3,
+        "show_view_all": true,
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "layout": "carousel",
+        "blog_first_post_big": true,
+        "alternate_bg_color": true,
+        "height": "full",
+        "height_desktop": 700,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style_tint": true,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "slide_transition": "slide"
+      }
+    },
+    "5212f425-ff33-4b69-89b8-03effc8b5c65": {
+      "type": "scrolling-banner",
+      "settings": {
+        "text": "Apply for our 20% off Pro Discount for working artists",
+        "link": "shopify:\/\/pages\/artist-relations",
+        "text_size": 80,
+        "line_height": 1.5,
+        "speed": 10.5,
+        "direction": "left",
+        "font": "heading",
+        "space_x": true,
+        "stencil_all_text": false,
+        "stencil_text": "20 % off Pro Discount",
+        "overlay_style_tint": false,
+        "color_scheme": "custom",
+        "color_bg": "#000000",
+        "color_text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich-text",
+    "gallery",
+    "featured-collection",
+    "collection-list",
+    "testimonials",
+    "background-video",
+    "text-columns-with-images",
+    "image-with-text",
+    "featured-product",
+    "featured-blog",
+    "5212f425-ff33-4b69-89b8-03effc8b5c65"
+  ]
+}

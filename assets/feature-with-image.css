@@ -1,0 +1,88 @@
+.feature-with-image {
+  background-color: var(--background-color);
+}
+
+.feature-with-image__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-with-image__subtitle,
+.feature-with-image__title,
+.feature-with-image__description {
+  color: var(--color);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  text-align: var(--text-align);
+  max-width: var(--max-width);
+  padding: var(--padding-top) var(--padding-right) var(--padding-bottom) var(--padding-left);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.feature-with-image__subtitle {
+  text-transform: uppercase;
+}
+
+.feature-with-image__image-container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-top: 20px;
+  text-align: var(--image-position);
+}
+
+.feature-with-image__image {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 768px) {
+  .feature-with-image {
+    padding: 40px 15px;
+  }
+
+  .feature-with-image__subtitle,
+  .feature-with-image__title,
+  .feature-with-image__description {
+    font-size: calc(var(--font-size) * 0.875) !important;
+  }
+
+  .feature-with-image__image-container {
+    max-width: 100% !important;
+  }
+}
+
+/* Custom properties for each element */
+.feature-with-image {
+  --background-color: attr(data-background-color);
+}
+
+.feature-with-image__subtitle,
+.feature-with-image__title,
+.feature-with-image__description {
+  --color: attr(data-color);
+  --font-size: attr(data-font-size px);
+  --font-weight: attr(data-font-weight);
+  --text-align: attr(data-text-align);
+  --max-width: attr(data-max-width px);
+  --padding-top: attr(data-padding-top px);
+  --padding-right: attr(data-padding-right px);
+  --padding-bottom: attr(data-padding-bottom px);
+  --padding-left: attr(data-padding-left px);
+}
+
+.feature-with-image__image-container {
+  --max-width: attr(data-max-width px);
+  --image-position: attr(data-image-position);
+}
+
+.feature-with-image__image {
+  --border-radius: attr(data-border-radius px);
+}

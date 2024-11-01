@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "165895188349f56805": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Home Makeup Lighting",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>Looking for the <em>perfect makeup lighting<\/em> for your home? <br\/>The Makeup Light's line of makeup vanities and LED panels are ready to transform your space!<\/p><p><strong>Want to build something more customized? <\/strong><a href=\"\/pages\/custom-lighting-contact-form\" title=\"Custom Lighting Contact Form\">Contact our team <\/a>to get started on your custom lighting order.<\/p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "1658952677f4af927e": {
+      "type": "gallery",
+      "blocks": {
+        "1658952677cf59c4d6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tml-meira-tabletop-vanity.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "TML Meira",
+            "title": "Tabletop Vanity",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/products\/tml-meira-back-in-stock-sale",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1658952677cf59c4d6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/antiquedresser_01-1.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "TML Meira Home LUXe",
+            "title": "Wall-Mounted Vanity",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/products\/tml-meira-home-luxe",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1658952677cf59c4d6-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eyelight-mirror-mounted-vanity.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Eyelight",
+            "title": "Portable \/ Travel Vanity",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/products\/eyelight-magic-kit",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "fdc9152c-68d1-4636-9358-fe604dcbcaaa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bryce-dallas-howard-makeup-light-vanity_sized.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "Custom",
+            "title": "Customized Vanity",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "shopify:\/\/pages\/custom-home-makeup-lighting-luxury-lighting-solutions",
+            "text_alignment": "position--left position--bottom"
+          }
+        }
+      },
+      "block_order": [
+        "1658952677cf59c4d6-0",
+        "1658952677cf59c4d6-1",
+        "1658952677cf59c4d6-2",
+        "fdc9152c-68d1-4636-9358-fe604dcbcaaa"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 2,
+        "desktop_image_height": 400,
+        "mobile_image_height": 400,
+        "title_size": 40,
+        "enable_margin": true,
+        "full_width": true,
+        "enable_carousel": true,
+        "overlay_style_tint": true,
+        "alternate_bg_color": false
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_collection_content": false,
+        "show_collection_image": false,
+        "description_position": "top",
+        "layout": "rows",
+        "grid": 3,
+        "grid_mobile": "1",
+        "products_per_page": 18,
+        "enable_infinite_scroll": true,
+        "show_vendor": false,
+        "show_filter_counts": false,
+        "show_filter_deadends": false,
+        "ajax_products": true,
+        "filter_mode": "none",
+        "sticky_sidebar": true,
+        "collapse_filters_method": "none",
+        "collapse_sort_by": true,
+        "enable_sorting": false,
+        "show_featured_in_sort": false
+      }
+    }
+  },
+  "order": [
+    "165895188349f56805",
+    "1658952677f4af927e",
+    "main"
+  ]
+}
