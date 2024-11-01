@@ -1,0 +1,106 @@
+{% style %}
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children:hover ul:has(li:only-child) {
+  display: none;
+}
+#shopify-section-header .tier-2.mega-menu .nav-columns {
+  display: grid;
+  grid-template-columns: 45ch 1fr;
+  position: relative;
+  background: {{ section.settings.levelTwo_bg }};
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children {
+  position: static;
+  z-index: 2;
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children .column-title,
+#shopify-section-header .tier-2.mega-menu .nav-columns > li > a {
+  font-weight: 500;
+  transition: all ease 0.3s;
+  font-size: 18px;
+  padding-block: 6px;
+  margin-block: 7px;
+  color: {{ section.settings.levelTwo_textColor }} !important;
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children .column-title:hover,
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children:has(ul.active) .column-title,
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children:hover .column-title {
+  padding-inline: 12px;
+  opacity: 1;
+  color: {{ section.settings.levelTwo_textColor_hover }} !important;
+  background: {{ section.settings.levelTwo_textBg_hover }};
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children ul {
+  position: absolute;
+  left: calc(70px + 45ch);
+  top: 0;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  width: max-content;
+  z-index: 2;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  transition: visibility ease 0.2s, opacity ease 0.2s;
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children ul.active,
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children:hover ul {
+  opacity: 1;
+  visibility: visible;
+  height: calc(100% - 24px - 40px);
+  padding: 24px;
+  margin-top: 36px;
+  margin-bottom: 24px;
+  padding-block: 0;
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children:hover ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  margin-block: 7px;
+  padding-block: 6px;
+  line-height: 1.6;
+  color: {{ section.settings.levelThree_textColor }} !important;
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .contains-children:hover ul li:hover a {
+  color: {{ section.settings.levelThree_textColor_hover }} !important;
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .nav-ctas__container {
+  position: relative;
+  z-index: 1;
+  grid-column: 2;
+  grid-row: 1/15;
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .nav-ctas__wrapper {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  max-width: 520px;
+}
+
+@media (min-width: 1440px) {
+  #shopify-section-header .tier-2.mega-menu .nav-columns .nav-ctas__wrapper {
+    margin-right: 4rem;
+  }
+}
+
+#shopify-section-header .tier-2.mega-menu .nav-columns .nav-ctas__wrapper > * {
+  padding: 0;
+  margin: 0;
+  max-width: 250px;
+  height: fit-content;
+  aspect-ratio: 6/5;
+}
+{% endstyle %} 

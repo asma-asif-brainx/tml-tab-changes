@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "8cd96132-6046-4511-8d00-7083dc1f25db": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pic-trailers-lighting.jpg",
+        "height": "fixed",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "327c23e2-0626-475e-be75-c9fc3df6c426": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Makeup Trailers",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>Production hair and makeup artists spend a lot of time working out of makeup trailers—so you need trailers that work for you. Here are some of our favorites featuring TML custom lighting built in. <\/p><p>Ask for them by name for your next production!<\/p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "34a85d7a-b1a4-4608-852d-b85581dd107f": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "Solar powered",
+        "title": "GreenLite Trailers",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>Makeup trailers entirely powered by solar power? Yes, it's possible! The team at GreenLite Trailers has made it a reality, and every makeup station has TML Custom lighting built in!<\/p><p>Change between color temperatures and brightness with ease. Ask for it by name on your next production!<\/p>",
+        "button_label": "Contact GreenLite",
+        "button_link": "https:\/\/www.greenliteca.com\/",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/greenlite-trailers-the-makeup-light-stations.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "d161f8a0-92b8-41d0-86d9-2bd02e8226a6": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "performance trailers, inc",
+        "title": "Partners in Crime",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>Applying makeup and hair in this trailer is a dream. TML custom light panels are built into every station so makeup and hair artists can work with confidence.<\/p><p>This trailer had its maiden voyage working on The Orville and moved on to movies and other projects. Request it for your next production by name!<\/p>",
+        "button_label": "Contact Performance Trailers",
+        "button_link": "https:\/\/perftrlrs.com\/",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/PIC_Trailer_2-1400v.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "image_with_text_44H8PC": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "Models to Fit your needs",
+        "title": "Big Mack Trailers",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>Big Mack Trailers has over three decades of experience, and we are thrilled to work with them to bring The Makeup Light's LED lighting into their makeup trailers.<\/p>",
+        "button_label": "Contact Big Mack Trailers",
+        "button_link": "https:\/\/www.bigmacktrailers.com\/",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/big-mack-trailers.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "48d9a9fe-eb31-41a7-966a-68f04bed12b3": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Want TML in your trailer?",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>Are you building a makeup trailer and want to talk to our team about custom LED lighting? Use this <a href=\"\/pages\/custom-lighting-contact-form\" title=\"Custom Lighting Contact Form\">custom contact form<\/a> to contact our team and get the conversation started!<\/p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "c26b5044-ad9b-4451-9e31-65041cbed5c9": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/greenlite-trailers-the-makeup-light-station.jpg",
+        "height": "fixed",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    }
+  },
+  "order": [
+    "8cd96132-6046-4511-8d00-7083dc1f25db",
+    "327c23e2-0626-475e-be75-c9fc3df6c426",
+    "34a85d7a-b1a4-4608-852d-b85581dd107f",
+    "d161f8a0-92b8-41d0-86d9-2bd02e8226a6",
+    "image_with_text_44H8PC",
+    "main",
+    "48d9a9fe-eb31-41a7-966a-68f04bed12b3",
+    "c26b5044-ad9b-4451-9e31-65041cbed5c9"
+  ]
+}

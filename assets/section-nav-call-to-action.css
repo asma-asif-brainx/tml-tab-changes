@@ -1,0 +1,131 @@
+@media (min-width: 1100px) {
+  .nav-ctas__cta {
+    position: relative;
+    overflow: hidden;
+  }
+  .learn-more-button {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    z-index: 10;
+    opacity: 1;
+  }
+  .learn-more-button span {
+    margin-right: 8px;
+  }
+
+  .learn-more-button:hover {
+    opacity: 1;
+  }
+  .learn-more-text {
+    color: white !important;
+  }
+  .learn-more-button span {
+    color: white !important;
+  }
+  .nav-ctas__cta .overlay-type {
+    min-height: auto !important;
+    padding: 0px;
+    position: absolute;
+  }
+  .#shopify-section-header
+    .tier-2.mega-menu
+    .nav-columns
+    .nav-ctas__wrapper
+    > .nav-ctas__cta {
+    position: relative !important;
+  }
+  .learn-more-button {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #0003;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 10;
+    opacity: 1;
+  }
+  .learn-more-text, .learn-more-button span {
+    color: #fff !important;
+    font-size: 12px;
+    padding: 15px;
+    position: absolute;
+    right: -14px;
+    bottom: 3px;
+    background-color: #0003;
+    width: max-content;
+  }
+  .learn-more-button:hover {
+    background-color: transparent !important;
+  }
+  .learn-more-text:hover,
+  .learn-more-button span:hover {
+    background-color: black !important;
+  }
+}
+
+@media (max-width: 1099px) {
+  .nav-ctas__container picture {
+    display: block !important;
+  }
+  .nav-ctas__cta .overlay-type
+  {
+    min-height: 220px !important;
+  }
+  .nav-ctas__container
+  {
+    display: grid;
+    gap: 10px;
+  }
+  .nav-ctas__cta
+  {
+    margin:0;
+  }
+  .learn-more-button {
+    position: absolute !important;
+    height: 34px !important;
+    width: 60% !important;
+    bottom: 40px;
+    top: 83%;
+    left: 50%;
+    right: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color .3s ease, transform .3s ease;
+    text-decoration: none;
+    z-index: 10;
+    opacity: 1;
+  }
+  .learn-more-button:hover {
+    background-color: black !important;
+  }
+  .learn-more-text:hover,
+  .learn-more-button span:hover {
+    background-color: black !important;
+    color: #fff !important;
+  }
+
+}

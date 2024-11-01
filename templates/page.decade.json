@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "rich_text_bpQzg6": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "Celebrating a Decade of Light",
+        "title": "10 Year Anniversary",
+        "title_size": 46,
+        "title_width": 12,
+        "heading_h1": true,
+        "text": "",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "background_video_HAMTtw": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "video_external": "https:\/\/vimeo.com\/916040645",
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "height": "full",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style_tint": true
+      }
+    },
+    "7af22927-2cb1-4cdb-9221-b4bb43fd3f94": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "A Decade of Light",
+        "title_size": 40,
+        "title_width": 12,
+        "heading_h1": true,
+        "text": "<p>We are thrilled to share exciting news—<strong>it's our 10 Year Anniversary! <\/strong>The Makeup Light has been shaping industry and home makeup lighting for ten years. That's <strong>a <\/strong><em><strong>decade<\/strong><\/em><strong> of light!<\/strong><\/p><p>We started out with a singular vision—to bring daylight into a makeup trailer. If you've ever been inside on, you know that almost no natural light gets in. You have to rely on the light you have.<\/p><p>Michael Astalos—a visionary and innovator—listened to the concerns of his makeup artist wife, Vivian Baker. She knew that without the right lighting, her work would suffer.<\/p><p>That's when Michael <em>changed the game<\/em> for artists everywhere. He developed the first ever portable, edge-lit, daylight-balanced LED light panel to bring sunshine into the makeup trailer.<strong> The Makeup Light was born!<\/strong><\/p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "shopify:\/\/pages\/contact",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "image_with_text_overlay_KHBzWg": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/portable-vanity-2.jpg",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "rich_text_N9pFwQ": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>Ten years ago, we set out to solve a simple problem—bringing light into a makeup trailer. Today, our lighting is in makeup trailers, salons, spas, makeup schools, green rooms, homes, and more!<\/p><p>It's not every day that something created as an act of love from one person to another touches so many lives around the world. <strong>That's the magic of TML<\/strong>.<\/p><p>The team here at The Makeup Light is constantly striving toward the next innovation of light without sacrificing the quality or forgetting where we came from. <strong>We strive towards excellence, always.<\/strong><\/p><p>Thank you for celebrating <strong>a decade of light<\/strong> with us! It has been our pleasure to bring light to your life. Thank you for sharing yours with us.<\/p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "image_with_text_eeRCKc": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "The Starlight",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>This brand new setup is available for rent via our sister company, <a href=\"https:\/\/www.casesforvisualarts.com\/\" target=\"_blank\" title=\"Cases for Visual Arts link\">Cases for Visual Arts<\/a>. Three custom panels around a mirror large enough for two to work.<\/p><p><\/p><p>This professional configuration is ready to work.<\/p>",
+        "button_label": "Contact CVA",
+        "button_link": "https:\/\/casesforvisualarts.com",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/starlight-tml.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "7916e4a7-54da-44a9-978e-4c72767d67ef": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Bring Sunshine into Your Home Makeup Experience",
+        "collection": "home-shop",
+        "layout": "columns",
+        "show_vendor": false,
+        "grid": 2,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "video_R8J9Lg": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "video_external": "https:\/\/vimeo.com\/916040645",
+        "image": "shopify:\/\/shop_images\/portable-vanity-2.jpg",
+        "subheading": "",
+        "video_title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": false,
+        "overlay_style_tint": true
+      }
+    }
+  },
+  "order": [
+    "rich_text_bpQzg6",
+    "main",
+    "background_video_HAMTtw",
+    "7af22927-2cb1-4cdb-9221-b4bb43fd3f94",
+    "image_with_text_overlay_KHBzWg",
+    "rich_text_N9pFwQ",
+    "image_with_text_eeRCKc",
+    "7916e4a7-54da-44a9-978e-4c72767d67ef",
+    "video_R8J9Lg"
+  ]
+}

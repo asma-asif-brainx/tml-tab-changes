@@ -1,0 +1,397 @@
+{
+  "wrapper": "div.template-faq",
+  "sections": {
+    "1633684260f2d526f0": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "FAQs",
+        "title_size": 60,
+        "heading_h1": true,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "main": {
+      "type": "main-faq",
+      "settings": {
+        "show_title": false,
+        "show_content": true,
+        "text_alignment": "left",
+        "show_search": true,
+        "show_sidebar": true,
+        "sidebar_title": "Quick links",
+        "search_placeholder": "Search FAQs"
+      }
+    },
+    "16336816691fb51b7b": {
+      "type": "accordions",
+      "blocks": {
+        "16336816691fb51b7b-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Do you offer a pro discount?",
+            "text": "<p>Yes! TML offers a Professional Artist Discount in the form of a coupon code that applies to all non-sale items in our shop. <a href=\"https:\/\/themakeuplight.myshopify.com\/pages\/artist-relations\">Apply now on our Artist Relations page.<\/a><\/p><p><strong>NOTE: <\/strong><em>The Pro Discount does not apply to Custom orders<\/em><\/p>",
+            "open": false
+          }
+        },
+        "16336816691fb51b7b-2": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "When will I have a response regarding my pro discount application?",
+            "text": "<p>We work hard to see that all applications for the pro discount are evaluated promptly. It make take up to three days for a response during times of high volume. Note also, we do not do evaluations on weekends and holidays. If you feel that a response is taking too long, be sure to check your junk \/ spam email as our reply email (from \"Artist Relations\") may end up there out of our control.<\/p>",
+            "open": false
+          }
+        },
+        "16336816691fb51b7b-1": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Do you offer a payment plan?",
+            "text": "<p>Payment plan options are available for eligible products through a third-party service called \"AfterPay.\" To learn more about AfterPay click <a href=\"https:\/\/help.afterpay.com\/hc\/en-us\" title=\"Learn More about AfterPay\">here<\/a>.<\/p>",
+            "open": false
+          }
+        },
+        "ed31e110-cad8-44f8-bbd2-2789a5afcef7": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "What payment methods do you accept?",
+            "text": "<p>Visa, Mastercard, American Express, PayPal, Apple Pay<\/p>",
+            "open": false
+          }
+        },
+        "e3b425e7-5a81-4521-beb8-fe89bdab6f33": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Will there be sales tax on my order?",
+            "text": "<p>Only if you live in California, as that is where our brick-and-mortar shop is. Otherwise, no.<\/p>",
+            "open": false
+          }
+        },
+        "e177bbf9-7b1f-4b01-9963-1946bee1e59a": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Can I use two coupons at once?",
+            "text": "<p>Only one coupon per order is permitted.<\/p>",
+            "open": false
+          }
+        },
+        "f81bafec-cb61-4f4b-9aab-59d4efd1f3bf": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Will my coupons expire?",
+            "text": "<p>All coupon codes will expire at some time, however, if a valid coupon code that you have been given has expired, give us a call for a new one. Be aware that coupon values are always subject to change, and you may not receive the same coupon value after your original coupon has expired.<\/p>",
+            "open": false
+          }
+        },
+        "62f7e622-6cf2-4d3f-9d68-dec24a2151f1": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Do you have gift cards?",
+            "text": "<p>Yes! <a href=\"https:\/\/themakeuplight.com\/products\/gift-card\" title=\"TML Gift Card\">Click here for Gift Card options<\/a>.<\/p>",
+            "open": false
+          }
+        },
+        "65efdf99-9e51-4c84-afa5-d6d13eece429": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "What currency is used for transactions?",
+            "text": "<p>US Dollars<\/p>",
+            "open": false
+          }
+        },
+        "0ea1ed39-bbff-43f4-af78-817956193dff": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Why is my item on backorder?",
+            "text": "<p>With a complex supply chain it is inevitable that from time to time we find ourselves waiting for various components to complete orders. You can still order these items, and we’ll ship them to you as soon as supplies are replenished. For international orders containing back order items, the entire shipment will be held until the back ordered item is available so they ship in a single shipment.<\/p>",
+            "open": false
+          }
+        },
+        "7f2e65b5-9637-4578-a9b4-d45186e1aa20": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How do Pre Sales work?",
+            "text": "<p>For items offered as a \"pre-sale\" order. These orders will be fulfilled in the order they were received when the product becomes available. Expedited shipping will be honored upon receipt of the product TML. If you wish to order other in-stock products in addition to \"pre-sale\" items, please purchase them in separate orders.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "16336816691fb51b7b-0",
+        "16336816691fb51b7b-2",
+        "16336816691fb51b7b-1",
+        "ed31e110-cad8-44f8-bbd2-2789a5afcef7",
+        "e3b425e7-5a81-4521-beb8-fe89bdab6f33",
+        "e177bbf9-7b1f-4b01-9963-1946bee1e59a",
+        "f81bafec-cb61-4f4b-9aab-59d4efd1f3bf",
+        "62f7e622-6cf2-4d3f-9d68-dec24a2151f1",
+        "65efdf99-9e51-4c84-afa5-d6d13eece429",
+        "0ea1ed39-bbff-43f4-af78-817956193dff",
+        "7f2e65b5-9637-4578-a9b4-d45186e1aa20"
+      ],
+      "settings": {
+        "title": "Purchasing",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "1633681707d0a1c902": {
+      "type": "accordions",
+      "blocks": {
+        "1633681707d0a1c902-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How will my order be shipped?",
+            "text": "<p>UPS “ground” or expedited services, which you choose at checkout. We ship via UPS for most U.S. orders and DHL for all international orders. UPS does not deliver to P.O. Boxes.<\/p>",
+            "open": false
+          }
+        },
+        "1633681707d0a1c902-1": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How much is shipping?",
+            "text": "<p>The shipping calculator on the shopping cart page will determine shipping options and charges based on the shipping address you enter.<\/p>",
+            "open": false
+          }
+        },
+        "1633681707d0a1c902-2": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "What is free shipping?",
+            "text": "<p>When available, “Free Shipping” is by coupon code only and will always be shipped via a standard “ground” method. It is available only to the US continental 48 states.<\/p>",
+            "open": false
+          }
+        },
+        "38758d4d-b0ea-40c8-89e9-64ac97a2cd93": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Is a signature required for shipping delivery?",
+            "text": "<p>We ship all packages without signature required unless expressly requested by the customer. All international [Non-US] orders will require a delivery confirmation signature.<\/p>",
+            "open": false
+          }
+        },
+        "11c8574c-52af-4232-a971-2032d148405c": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How will I know when my order has been shipped?",
+            "text": "<p>We mark your order “complete” in our system when we print the shipping label. You will automatically receive an email at the email address you supplied at checkout for the completed order and an email with tracking information when it becomes available. NOTE: Please check your “spam” or “junk” email folder as tracking emails tend to get filtered there.<\/p>",
+            "open": false
+          }
+        },
+        "547d1e92-a0d5-4571-b65b-097c17b717ca": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Do you ship internationally?",
+            "text": "<p>Yes, we ship to over 100 countries. We’ll be the first to admit it’s not cheap, but we’re working hard on expanding our Reseller list to include your country. See the information below if you’re interested in carrying TML in your country. It’s easier than you might think!<\/p>",
+            "open": false
+          }
+        },
+        "774bb841-59cc-4f5a-ad17-714320a0ca6a": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "What countries do you ship to?",
+            "text": "<p>We ship anywhere around the world. All international packages can potentially incur additional customs charges upon arrival in the destination country, so please take that into consideration when purchasing. We cannot predict the amount of duties and taxes charged on shipping, as the carrier charge covers delivery only. All customs and border fees are the responsibility of the client. If you have any questions regarding duties and taxes in your country, please contact your local customs office. For international orders containing back order items, the entire shipment will be held until the back ordered item is available so they ship in a single shipment.<\/p>",
+            "open": false
+          }
+        },
+        "d53babcd-edba-4495-94d1-0944f7c53d47": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Do you ship to Armed Forces \/ APO \/ FPO addresses \/ P.O. boxes?",
+            "text": "<p>Not at the moment, but we’re looking into incorporating those.<\/p>",
+            "open": false
+          }
+        },
+        "cf18f09d-a6ee-4a4c-aa8c-701623d97ca6": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How are International Shipping Duties \/ Taxes handled?",
+            "text": "<p><strong>The customer may be responsible for any import duties and taxes on your international order.<\/strong>In addition, some orders may experience customs delays. Unfortunately, we have no control over these charges or delays and cannot predict what they may be. We suggest that you contact your local customs office for additional information.<\/p>",
+            "open": false
+          }
+        },
+        "df4e95a5-6220-4dc8-b014-0710600f8789": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How are International orders handled if an item is on backorder?",
+            "text": "<p>For international orders containing back order items, the entire shipment will be held until the back ordered item is available so they ship in a single shipment.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "1633681707d0a1c902-0",
+        "1633681707d0a1c902-1",
+        "1633681707d0a1c902-2",
+        "38758d4d-b0ea-40c8-89e9-64ac97a2cd93",
+        "11c8574c-52af-4232-a971-2032d148405c",
+        "547d1e92-a0d5-4571-b65b-097c17b717ca",
+        "774bb841-59cc-4f5a-ad17-714320a0ca6a",
+        "d53babcd-edba-4495-94d1-0944f7c53d47",
+        "cf18f09d-a6ee-4a4c-aa8c-701623d97ca6",
+        "df4e95a5-6220-4dc8-b014-0710600f8789"
+      ],
+      "settings": {
+        "title": "Shipping",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "1633684277a52541f1": {
+      "type": "accordions",
+      "blocks": {
+        "1633684277a52541f1-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Do you accept returns?",
+            "text": "<p>Returns will be accepted within 30 days of receipt of purchase. Items must be returned in \"like new\" condition with all original packing intact. You will receive a full refund minus shipping if all conditions are met. There will be no returns on all “special” or “as is” sale items. All “special” or “as is” sales are final. Please call (818) 988-9085 to let us know you are intending to return your order and to obtain a RMA. When sending your product back to TML Group, Inc., please make sure to (1) print your original receipt you received via email at the time of purchase and include with your package (2) and please make sure to use a trackable and insured shipping method; we cannot accept COD returns, and we cannot be not responsible for goods lost in shipping. We will email you once your return is processed.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "1633684277a52541f1-0"
+      ],
+      "settings": {
+        "title": "Returns",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "4cc335b6-7998-4474-a882-9dfe9f5b9802": {
+      "type": "accordions",
+      "blocks": {
+        "template--14751183110214__4cc335b6-7998-4474-a882-9dfe9f5b9802-1678465539a3b41e65-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "General LED Specifications (see products for individual product detail):",
+            "text": "<p>In general, TML LED panels have these similar specifications: Daylight Balanced at 5000 Kelvin LEDs with “CRI” of 96+ (includes R9 – R15 values) Color Quality Scale “CQS” value of 93 International “dual” Voltage Power Supply (100 – 240 VAC) LED life expectancy, 50,000+ hours<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14751183110214__4cc335b6-7998-4474-a882-9dfe9f5b9802-1678465539a3b41e65-0"
+      ],
+      "settings": {
+        "title": "General LED Technical Specifications",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "ac0e9085-f765-4b3b-8c17-4d11a70511a3": {
+      "type": "accordions",
+      "blocks": {
+        "template--14751183110214__ac0e9085-f765-4b3b-8c17-4d11a70511a3-1678465539a3b41e65-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How do I become a reseller?",
+            "text": "<p>If you would like to become a reseller of TML lighting systems, the guidelines are simple: Wholesale pricing for resellers is 50% of retail prices found in our shop, and we have per order minimums of $2,500 at the wholesale price, excluding shipping. We accept payment by bank transfer only. Call or email (sales@themakeuplight.com) for orders and inquiries.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14751183110214__ac0e9085-f765-4b3b-8c17-4d11a70511a3-1678465539a3b41e65-0"
+      ],
+      "settings": {
+        "title": "Resellers",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "1b3be4ba-5568-49b7-b838-bc5902a10c98": {
+      "type": "accordions",
+      "blocks": {
+        "template--14751183110214__1b3be4ba-5568-49b7-b838-bc5902a10c98-1678465539a3b41e65-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "What is California Proposition 65?",
+            "text": "<p>Some of our products and accessories may be made of materials containing chemicals identified on California Prop 65. In accordance with Proposition 65, we issue the following warning to our California customers: These products contain one or more chemicals known to the state of California to cause cancer and birth defects or other reproductive harm.<\/p>",
+            "open": false
+          }
+        },
+        "template--14751183110214__1b3be4ba-5568-49b7-b838-bc5902a10c98-1678465539a3b41e65-1": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Do you offer a warranty?",
+            "text": "<p>Limited Warranty: We warrant for one year from purchase date and only to the original retail buyer (Customer) that our products (Products) are free from defects in material and workmanship. This warranty applies to defects that impede the operation of our products as intended. This warranty does not apply to minor cosmetic defects that may occur in the manufacturing or shipping process. If the Customer discovers a covered defect, the Customer should return the Product to the place of purchase. In the event that this is not possible, return the Product to us at the address provided. The Product will be repaired or replaced at our discretion. That is the extent of our liability under this Warranty and, upon expiration of the applicable warranty period, all such liability shall terminate. We reserve the right to require proof of purchase for all warranty claims. <a href=\"https:\/\/themakeuplight.com\/pages\/terms-conditions\">See our Terms & Conditions page for full Warranty details.<\/a><\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14751183110214__1b3be4ba-5568-49b7-b838-bc5902a10c98-1678465539a3b41e65-0",
+        "template--14751183110214__1b3be4ba-5568-49b7-b838-bc5902a10c98-1678465539a3b41e65-1"
+      ],
+      "settings": {
+        "title": "Miscellaneous",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "1634028710b7446a77": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "layout": "carousel",
+        "show_vendor": false,
+        "grid": 4,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": true,
+        "show_view_all": true
+      }
+    }
+  },
+  "order": [
+    "1633684260f2d526f0",
+    "main",
+    "16336816691fb51b7b",
+    "1633681707d0a1c902",
+    "1633684277a52541f1",
+    "4cc335b6-7998-4474-a882-9dfe9f5b9802",
+    "ac0e9085-f765-4b3b-8c17-4d11a70511a3",
+    "1b3be4ba-5568-49b7-b838-bc5902a10c98",
+    "1634028710b7446a77"
+  ]
+}

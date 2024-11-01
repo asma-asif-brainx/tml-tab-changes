@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "bd038a87-98d5-4e1b-b2ba-2c38abd8ccac": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "EDUCATION",
+        "title": "Lighting for Makeup Artists 101",
+        "title_size": 28,
+        "text": "<p>Do you understand the finer points of lighting and how it interacts with and influences your makeup, hair, and other applications?<\/p><p><\/p><p>Sara Seidman Vance has spent more than 30 years in the industry, has two Emmy nominations, and is one of the best at deciphering and teaching how lighting affects your work.<\/p><p><\/p><p>Next time she's teaching in your area, you don't want to miss it. Are you ready to learn?<\/p>",
+        "button_label": "LEARN MORE",
+        "button_link": "https:\/\/lightingformakeupartists101.com",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/sara-seidman-vance.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "fc99b6e0-2673-4322-a764-80d0bc1578ea": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "LASHES + EDUCATION",
+        "title": "Lashify",
+        "title_size": 28,
+        "text": "<p>Do your own lashes—or offer them as a service! With Lashify you or your clients can wear your lashes for a day or a week! It's entirely up to you.<\/p><p><\/p><p>Lashify offers a Pro Program, plus education to help you master this new skill. The Control Kit (pictured here) is the perfect place to start!<\/p>",
+        "button_label": "LEARN MORE",
+        "button_link": "https:\/\/www.lashify.com\/",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/26131933-5f335109-af5f-4e57-87bb-2a55f1bf7760.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "372183d6-0c6b-41ed-8f0c-1cfaa97cf7d4": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "SKIN PREP",
+        "title": "Sonia Roselli Beauty",
+        "title_size": 28,
+        "text": "<p>Skin prep begins with Sonia Roselli. Use some of the products—or all of them! You're the expert, so use that expertise with the best products available.<\/p><p><\/p><p>Your application will be so much smoother with skin prep by Sonia Roselli.<\/p>",
+        "button_label": "LEARN MORE",
+        "button_link": "https:\/\/www.soniaroselli.com\/",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/sonia-roselli.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bd038a87-98d5-4e1b-b2ba-2c38abd8ccac",
+    "fc99b6e0-2673-4322-a764-80d0bc1578ea",
+    "372183d6-0c6b-41ed-8f0c-1cfaa97cf7d4"
+  ]
+}

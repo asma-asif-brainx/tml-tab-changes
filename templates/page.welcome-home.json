@@ -1,0 +1,142 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "dc5802d1-4ab3-4a31-98b6-69c2bb5a4c5c": {
+      "type": "background-video",
+      "settings": {
+        "video_external": "https:\/\/youtu.be\/nUzcLo1_eMg",
+        "subheading": "",
+        "title": "WELCOME HOME",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style_tint": true
+      }
+    },
+    "7af22927-2cb1-4cdb-9221-b4bb43fd3f94": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "The Luxury of Daylight",
+        "title_size": 40,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p><strong>The sun is the best source of light for any artistry<\/strong>—including your makeup. But many factors can prevent you from putting on your makeup under that perfect light.<\/p><p>Waking up before the sun, cloudy days, windows facing the wrong direction. Whatever the obstacle, The Makeup Light's Meira vanities will eliminate them with daylight-balanced light at the touch of a dial.<\/p><p><strong>Welcome sunlight into your home—day or night.<\/strong> That's the power of The Makeup Light.<\/p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "405b4f39-1e6e-4356-b0a7-b28eb53fa2bc": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "TML Meira Home",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>Your makeup light should feel as glamorous as your home. The luxury of professional grade lighting at the touch of a button or dial.<\/p><p><\/p><p>The Makeup Light is designed with perfection in mind—no light comes closer to the natural light of the sun.<\/p><p><\/p><p>Are you ready to see with confidence? Then it's time to bring TML into your home.<\/p>",
+        "button_label": "Buy Now",
+        "button_link": "shopify:\/\/products\/tml-meira-home-luxe",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/luxglassdark-02-1.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "65b6de5a-0dd8-41c8-8dde-2e809a7f3590": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "TML Meira Tabletop",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>For the ultimate in tabletop luxury lighting, the original TML Meira illuminates like no other.<\/p><p>Daylight-balanced brilliant that brings sunshine into your home. No matter the time of day or weather outside, inside you'll always be illuminated in daylight.<\/p>",
+        "button_label": "BUY NOW",
+        "button_link": "shopify:\/\/products\/tml-meira",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/tml-meira-tabletop.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "7916e4a7-54da-44a9-978e-4c72767d67ef": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Bring Sunshine into Your Home Makeup Experience",
+        "collection": "home-shop",
+        "layout": "columns",
+        "show_vendor": false,
+        "grid": 2,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "1d3b5772-d4ef-4d83-ba38-f7966308714f": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc5802d1-4ab3-4a31-98b6-69c2bb5a4c5c",
+    "7af22927-2cb1-4cdb-9221-b4bb43fd3f94",
+    "405b4f39-1e6e-4356-b0a7-b28eb53fa2bc",
+    "65b6de5a-0dd8-41c8-8dde-2e809a7f3590",
+    "7916e4a7-54da-44a9-978e-4c72767d67ef",
+    "1d3b5772-d4ef-4d83-ba38-f7966308714f"
+  ]
+}

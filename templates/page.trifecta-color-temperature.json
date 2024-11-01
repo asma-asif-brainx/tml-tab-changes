@@ -1,0 +1,260 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "custom_article_header_nfPRj3": {
+      "type": "custom-article-header",
+      "settings": {
+        "background_color": "#e9e9e9",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "content_max_width": 550,
+        "text_alignment": "center",
+        "subheading": "Why It Matters For Your Makeup Artistry",
+        "subheading_color": "#b87333",
+        "subheading_font_size": 18,
+        "subheading_font_weight": "600",
+        "subheading_font_style": "normal",
+        "heading": "Understanding Color Temperature And Kelvin",
+        "heading_color": "#000000",
+        "heading_font_size": 48,
+        "mobile_heading_font_size": 24,
+        "heading_font_weight": "600"
+      }
+    },
+    "rich_text_VfLTcr": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "add-header-points": false,
+        "header-point-one": "",
+        "header-point-two": "",
+        "header-point-three": "",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>Color temperature refers to the warmth or coolness of light, measured in Kelvin (K). The Kelvin Scale is a measurement system used to describe the color temperature of light sources. It starts at absolute ZERO (0K) and measures how light shifts from warm to cool tones as the temperature increases.<\/p>",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_scheme": "custom",
+        "color_bg": "#f2f2f2",
+        "color_text": "",
+        "reduce_padding": true,
+        "increase_text_width": true,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": false,
+        "custom_background_color": "rgba(0,0,0,0)",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": true,
+        "text_font_size": 18,
+        "mobile_text_font_size": 16,
+        "text_font_weight": "500",
+        "text_color": "#010202",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": false
+      }
+    },
+    "custom_image_KwAt6m": {
+      "type": "custom-image",
+      "settings": {
+        "title": "",
+        "background_color": "#f2f2f2",
+        "padding": 10,
+        "padding-mobile": 20,
+        "container_width": 1100,
+        "container_color": "rgba(0,0,0,0)",
+        "border_radius": 10,
+        "inner_padding": 0,
+        "box_shadow": "",
+        "title_size": 24,
+        "title_weight": "bold",
+        "title_transform": "uppercase",
+        "title_color": "#000000",
+        "image": "shopify:\/\/shop_images\/image.png",
+        "image_max_width": 1050,
+        "image_height": 500,
+        "image_border_radius": 20,
+        "placeholder_color": "#f0f0f0"
+      }
+    },
+    "rich_text_CMXFCm": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "add-header-points": false,
+        "header-point-one": "",
+        "header-point-two": "",
+        "header-point-three": "",
+        "header-point-four": "",
+        "header-point-five": "",
+        "header-point-color": "",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>White light on the Kelvin scale typically falls between 5000K and 5500K. This range is considered “neutral” or “daylight” white, balancing warm and cool tones. Around 5000K-5500K is often referred to as pure white light, similar to midday sunlight. It’s the most accurate for revealing true colors, making it ideal for makeup application, photography, and other tasks requiring color precision.<\/p><p>Now that we understand CRI (Color Rendering Index) and how crucial it is for accurately seeing colors, it’s important to recognize that your eye relies on the color in light to perceive the world correctly. Kelvin temperature acts like a hue that colors the subject or scene, affecting how we see skin tones, makeup, and objects. Warmer Kelvin values add a yellowish hue, while cooler ones introduce a blue cast, each impacting how true-to-life or flattering the colors appear. Therefore, choosing a neutral white color temp ( 5200) with a high CRI (97+) is critical for your eye to see the colors correctly.\u2028<\/p><p>Camera’s can handle Color temps different from Makeup Artist. Cameras are designed to adapt to a wide range of lighting conditions and can adjust white balance to make colors appear correct regardless of the light’s color temperature. A camera can compensate for warm or cool tones automatically or through settings.<\/p><p>A makeup artist needs to see colors as accurately as possible under natural lighting conditions, without artificial adjustments. Using a neutral color temperature (5000-5500K) ensures that makeup looks correct across all environments.\u2028<\/p><p>At The Makeup Light, we are committed to maintaining an accurate 5200K color temperature, delivering consistent, pure white light that professionals can rely on. Our focus on quality and precision ensures that the light is not only \"daylight balanced\" by definition but also performs well in real-world conditions where accurate color rendering is critical.<\/p>",
+        "remove-text-top-margin": false,
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "custom",
+        "color_bg": "#f2f2f2",
+        "color_text": "",
+        "reduce_padding": true,
+        "increase_text_width": true,
+        "enable_custom_padding": false,
+        "custom_padding_top": 0,
+        "custom_padding_bottom": 0,
+        "enable_custom_margin": false,
+        "custom_margin_top": 0,
+        "custom_margin_bottom": 0,
+        "enable_custom_background": true,
+        "custom_background_color": "#f0f0f0",
+        "enable_content_padding": false,
+        "content_padding": 0,
+        "remove_padding": false,
+        "text_font_size": 18,
+        "mobile_text_font_size": 16,
+        "text_font_weight": "500",
+        "text_color": "#010202",
+        "add-custom-subhead-style": false,
+        "custom-subhead-font-size": 18,
+        "custom-subhead-decoration": "none",
+        "custom-subhead-font-weight": "400",
+        "custom-subhead-font-style": "normal",
+        "add-custom-styling": false
+      }
+    },
+    "multi_image_custom_DK8wAn": {
+      "type": "multi-image-custom",
+      "blocks": {
+        "text_block_AizAza": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/k1.png",
+            "image_width": 1000,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_TG4rK7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/k2.png",
+            "image_width": 1000,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_YbV3TU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/k3.png",
+            "image_width": 1000,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_8rjyLC": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/k4.png",
+            "image_width": 1000,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_6fmLUH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/k5.png",
+            "image_width": 1000,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_AizAza",
+        "text_block_TG4rK7",
+        "text_block_YbV3TU",
+        "text_block_8rjyLC",
+        "text_block_6fmLUH"
+      ],
+      "settings": {
+        "title": "",
+        "background_color": "#f2f2f2",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "reduce_paddings": true,
+        "image_spacing": 10,
+        "positive-margin": true,
+        "images-gap": 35,
+        "images-row-gap": 35,
+        "justify_content": "center",
+        "image_spacing_mobile": 0,
+        "hover_transition_duration": 0.3,
+        "hover_transform": "scale(1.05)",
+        "image_border_radius": 0,
+        "image_section_padding_bottom": 150,
+        "remove-mobile-img-container-padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_article_header_nfPRj3",
+    "rich_text_VfLTcr",
+    "custom_image_KwAt6m",
+    "rich_text_CMXFCm",
+    "multi_image_custom_DK8wAn"
+  ]
+}

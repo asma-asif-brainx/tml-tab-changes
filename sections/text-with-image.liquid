@@ -1,0 +1,438 @@
+{{ 'text-with-image.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  #shopify-section-{{ section.id }} .text-with-image {
+    background-color: {{ section.settings.background_color }};
+    {% if section.settings.enable_custom_padding %}
+      padding: {{ section.settings.padding_top }}px {{ section.settings.padding_right }}px {{ section.settings.padding_bottom }}px {{ section.settings.padding_left }}px;
+    {% endif %}
+  }
+
+  #shopify-section-{{ section.id }} .text-with-image__container {
+    {% if section.settings.enable_max_width %}
+      max-width: {{ section.settings.container_max_width }}px;
+    {% endif %}
+    {% if section.settings.enable_margin_auto %}
+      margin: 0 auto;
+    {% else %}
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      margin-left: {{ section.settings.margin_left }}px;
+      margin-right: {{ section.settings.margin_right }}px;
+    {% endif %}
+    display: {{  section.settings.pre-text-display }};
+    flex-direction: {% if section.settings.display_inline %}row{% else %}column{% endif %};
+    align-items: {% if section.settings.display_inline %}flex-start{% else %}stretch{% endif %};
+  }
+
+  #shopify-section-{{ section.id }} .text-with-image__pre-text {
+    {% if section.settings.enable_pre_text %}
+      color: {{ section.settings.pre_text_color }};
+      font-size: {{ section.settings.pre_text_size }}px;
+      font-weight: {{ section.settings.pre_text_weight }};
+      text-decoration: {{ section.settings.pre_text_decoration }};
+      margin-right: {% if section.settings.display_inline %}5px{% else %}0{% endif %};
+      margin-bottom: {% if section.settings.display_inline %}0{% else %}10px{% endif %};
+      white-space: {% if section.settings.display_inline %}nowrap{% else %}normal{% endif %};
+      font-style: {{ section.settings.pre_text_font_style }};
+
+      {% if section.settings.enable_pre_text_max_width %}
+        max-width: {{ section.settings.pre_text_max_width }}px;
+        width: 100%
+      {% endif %}
+    {% else %}
+      display: none;
+    {% endif %}
+  }
+
+  #shopify-section-{{ section.id }} .text-with-image__main-text {
+    {% if section.settings.enable_main_text %}
+      color: {{ section.settings.main_text_color }};
+      font-size: {{ section.settings.main_text_size }}px;
+      font-weight: {{ section.settings.main_text_weight }};
+      text-align: {{ section.settings.main_text_alignment }};
+      {% if section.settings.enable_main_text_max_width %}
+        max-width: {{ section.settings.main_text_max_width }}px;
+      {% endif %}
+    {% else %}
+      display: none;
+    {% endif %}
+  }
+
+  @media screen and (max-width: 767px) {
+    #shopify-section-{{ section.id }} .text-with-image__container {
+      flex-direction: row;
+    }
+    #shopify-section-{{ section.id }} .text-with-image__pre-text{
+      margin:0 !important;
+    }
+    #shopify-section-{{ section.id }} .text-with-image {
+      {% if section.settings.enable_custom_padding %}
+        padding: {{ section.settings.padding_top | divided_by: 2 }}px {{ section.settings.padding_right | divided_by: 2 }}px {{ section.settings.padding_bottom | divided_by: 2 }}px {{ section.settings.padding_left | divided_by: 3 }}px;
+      {% endif %}
+    }
+
+    #shopify-section-{{ section.id }} .text-with-image{
+      {% if section.settings.enable_mobile_padding_left_right %}
+        padding-left: {{ section.settings.mobile_padding_left }}px;
+        padding-right: {{ section.settings.mobile_padding_right }}px;
+      {% endif %}
+    }
+
+    #shopify-section-{{ section.id }} .text-with-image__pre-text {
+      margin-right: 0;
+      margin-bottom: 10px;
+      margin: auto;
+      font-size: {{ section.settings.pre_text_size | times: 0.8 }}px;
+      white-space: normal;
+    }
+
+    #shopify-section-{{ section.id }} .text-with-image__main-text {
+      font-size: {{ section.settings.main_text_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="text-with-image">
+  <p class="text-with-image__container">
+    {% if section.settings.enable_pre_text and section.settings.pre_text != blank %}
+      <span class="text-with-image__pre-text">
+        {{ section.settings.pre_text }}
+      </span>
+    {% endif %}
+
+    {% if section.settings.enable_main_text and section.settings.main_text != blank %}
+      <span class="text-with-image__main-text">
+        {{ section.settings.main_text }}
+      </span>
+    {% endif %}
+  </p>
+</div>
+
+{% schema %}
+{
+  "name": "Text with Image",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_padding",
+      "label": "Enable custom padding",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_left",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Left Padding",
+      "default": 20
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_mobile_padding_left_right",
+      "label": "Enable Mobile Padding Left Right",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_left",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile Left Padding",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_right",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile right Padding",
+      "default": 0
+    },
+    
+    {
+      "type": "range",
+      "id": "padding_right",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Right Padding",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Container Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_max_width",
+      "label": "Enable max width for container",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "container_max_width",
+      "min": 600,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "label": "Container Max Width",
+      "default": 1200
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_margin_auto",
+      "label": "Center container (margin auto)",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top Margin",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom Margin",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_left",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Left Margin",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_right",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Right Margin",
+      "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "display_inline",
+      "label": "Display pre-text and main text inline",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Pre-Text Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_pre_text",
+      "label": "Enable Pre-Text",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "pre-text-display",
+      "label": "Display pre text as:",
+      "options": [
+        { "value": "flex", "label": "flex" },
+        { "value": "block", "label": "block" },
+        { "value": "inline", "label": "inline" },
+        { "value": "none", "label": "none" }
+      ],
+      "default": "flex"
+    },
+    {
+      "type": "text",
+      "id": "pre_text",
+      "label": "Pre-Text",
+      "default": "Best for:"
+    },
+    {
+      "type": "color",
+      "id": "pre_text_color",
+      "label": "Pre-Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "pre_text_size",
+      "min": 12,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "label": "Pre-Text Font Size",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "pre_text_weight",
+      "label": "Pre-Text Font Weight",
+      "options": [
+        { "value": "400", "label": "Normal" },
+        { "value": "700", "label": "Bold" }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "select",
+      "id": "pre_text_font_style",
+      "label": "Pre-Text Font Stylet",
+      "options": [
+        { "value": "normal", "label": "Normal" },
+        { "value": "italic", "label": "Italic" }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "select",
+      "id": "pre_text_decoration",
+      "label": "Pre-Text Decoration",
+      "options": [
+        { "value": "none", "label": "None" },
+        { "value": "underline", "label": "Underline" },
+        { "value": "overline", "label": "Overline" },
+        { "value": "line-through", "label": "Line-through" }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_pre_text_max_width",
+      "label": "Enable max width for pre-text",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "pre_text_max_width",
+      "min": 100,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Pre-Text Max Width",
+      "default": 200
+    },
+    {
+      "type": "header",
+      "content": "Main Text Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_main_text",
+      "label": "Enable Main Text",
+      "default": true
+    },
+    {
+      "type": "textarea",
+      "id": "main_text",
+      "label": "Main Text",
+      "default": "Artists who need portability and flexibility in tight spaces. The Key Light is ideal for low-ceiling environments and fits in compact areas. Its lightweight design, felt pouch for both panel and power supply, makes it a breeze to carry from set to set."
+    },
+    {
+      "type": "color",
+      "id": "main_text_color",
+      "label": "Main Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "main_text_size",
+      "min": 12,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "label": "Main Text Font Size",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "main_text_weight",
+      "label": "Main Text Font Weight",
+      "options": [
+        { "value": "400", "label": "Normal" },
+        { "value": "500", "label": "Medium" },
+        { "value": "600", "label": "Semi Bold" },
+        { "value": "700", "label": "Bold" }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "select",
+      "id": "main_text_alignment",
+      "label": "Main Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_main_text_max_width",
+      "label": "Enable max width for main text",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "main_text_max_width",
+      "min": 200,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "label": "Main Text Max Width",
+      "default": 600
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text with Image",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

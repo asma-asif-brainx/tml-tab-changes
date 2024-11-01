@@ -1,0 +1,646 @@
+{{ 'feature-with-image.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .feature-with-image {
+    background-color: {{ section.settings.background_color }};
+    padding: {{ section.settings.padding_top }}px {{ section.settings.padding_right }}px {{ section.settings.padding_bottom }}px {{ section.settings.padding_left }}px;
+  }
+  .feature-with-image__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-with-image__subtitle,
+  .feature-with-image__title,
+  .feature-with-image__description {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feature-with-image__subtitle {
+    text-transform: uppercase;
+  }
+
+  .feature-with-image__image-container {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .feature-with-image__image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'subtitle' %}
+        #shopify-section-{{ section.id }} .feature-with-image__subtitle {
+          color: {{ block.settings.color }};
+          font-size: {{ block.settings.font_size }}px;
+          font-weight: {{ block.settings.font_weight }};
+          text-align: {{ block.settings.text_align }};
+          max-width: {{ block.settings.max_width }}px;
+          width:100%;
+          padding: {{ block.settings.padding_top }}px {{ block.settings.padding_right }}px {{ block.settings.padding_bottom }}px {{ block.settings.padding_left }}px;
+        }
+
+        #shopify-section-{{ section.id }} .custom-subtitle {
+          {% if block.settings.remove-subtitle-margin %}
+                  margin:0;
+          {% endif %}
+
+          text-decoration: {{ block.settings.subtitle-decoration }};
+          font-style:  {{ block.settings.subtitle-font-style }};
+          line-height: 1.5;
+        }
+
+        
+
+      {% when 'title' %}
+        #shopify-section-{{ section.id }} .feature-with-image__title {
+          color: {{ block.settings.color }};
+          font-size: {{ block.settings.font_size }}px;
+          font-weight: {{ block.settings.font_weight }};
+          text-align: {{ block.settings.text_align }};
+          max-width: {{ block.settings.max_width }}px;
+          width:100%;
+          padding: {{ block.settings.padding_top }}px {{ block.settings.padding_right }}px {{ block.settings.padding_bottom }}px {{ block.settings.padding_left }}px;
+        }
+        #shopify-section-{{ section.id }} .custom-bullet {
+          position: relative;
+        }
+        
+        #shopify-section-{{ section.id }} .custom-bullet::before {
+          content: '•';
+          color:  {{ block.settings.color }};
+          font-size: 18px; 
+          line-height: 1; 
+          vertical-align: middle;
+        }
+      
+        #shopify-section-{{ section.id }} .custom-title-main{
+          line-height: 1.5;
+        }
+
+        #shopify-section-{{ section.id }} .custom-title-pre-text
+        {
+          text-decoration : {{ block.settings.pre-title-text-decoration }};
+        }
+
+        #shopify-section-{{ section.id }} .custom-title {
+          {% if block.settings.remove-title-margin %}
+                  margin:0;
+          {% endif %}
+        }
+      {% when 'description' %}
+        #shopify-section-{{ section.id }} .feature-with-image__description {
+          color: {{ block.settings.color }};
+          font-size: {{ block.settings.font_size }}px;
+          font-weight: {{ block.settings.font_weight }};
+          text-align: {{ block.settings.text_align }};
+        }
+      {% when 'image' %}
+        #shopify-section-{{ section.id }} .feature-with-image__image-container {
+          max-width: {{ block.settings.image_width }}px;
+        }
+        #shopify-section-{{ section.id }} .feature-with-image__image {
+          border-radius: {{ block.settings.image_border_radius }}px;
+        }
+    {% endcase %}
+  {% endfor %}
+
+  @media screen and (max-width: 767px) {
+    .feature-with-image {
+      padding: 40px 15px;
+    }
+
+    .feature-with-image__subtitle,
+    .feature-with-image__title,
+    .feature-with-image__description {
+      font-size: 14px !important;
+    }
+
+    .feature-with-image__image-container {
+      max-width: 100% !important;
+    }
+
+    .feature-with-image__image {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+</style>
+
+<div class="feature-with-image">
+  <div class="feature-with-image__container">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'subtitle' %}
+          <h3 class="custom-subtitle feature-with-image__subtitle" {{ block.shopify_attributes }}>
+            {{ block.settings.text }}
+          </h3>
+        {% when 'title' %}
+          {% if block.settings.add-built-in-title %}
+          <div class="custom-title feature-with-image__title" {{ block.shopify_attributes }}>
+            {{ block.settings.text }}
+          </div>
+          {% endif %}
+
+          {% if block.settings.add-custom-title %}
+            <p class="custom-title-main custom-title feature-with-image__title
+               {% if block.settings.add-custom-bullets %} custom-bullet {% endif %}">
+              <span class="custom-title-pre-text ">{{ block.settings.custom-title-pre-text }}</span>
+              <span class="custom-title-text">{{ block.settings.custom-title-text }}</span>
+            </p>
+          {% endif %}
+
+        {% when 'description' %}
+          <div class="feature-with-image__description" {{ block.shopify_attributes }}>
+            {{ block.settings.text }}
+          </div>
+        {% when 'image' %}
+          <div class="feature-with-image__image-container" {{ block.shopify_attributes }}>
+            {% if block.settings.image != blank %}
+              {% assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+              <img class="feature-with-image__image lazyload"
+                   src="{{ block.settings.image | img_url: '300x' }}"
+                   data-src="{{ img_url }}"
+                   data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                   data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                   data-sizes="auto"
+                   alt="{{ block.settings.image.alt | escape }}"
+                   width="{{ block.settings.image_width }}"
+                   height="{{ block.settings.image_height }}">
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'feature-with-image__image placeholder' }}
+            {% endif %}
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Feature with Image",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f4f4f4"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_left",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Left Padding",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_right",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Right Padding",
+      "default": 20
+    }
+  ],
+  "blocks": [
+    {
+      "type": "subtitle",
+      "name": "Subtitle",
+      "settings": [
+        {
+          "type": "select",
+          "id": "subtitle-decoration",
+          "label": "Subtitle Decoration",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "underline", "label": "Underline" },
+            { "value": "overline", "label": "Overline" },
+            { "value": "line-through", "label": "Line-through" }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "select",
+          "id": "subtitle-font-style",
+          "label": "Subtitle font style",
+          "options": [
+            { "value": "normal", "label": "Normal" },
+            { "value": "italic", "label": "Italic" }
+          ],
+          "default": "normal"
+        },
+        {
+          "type": "checkbox",
+          "id" : "remove-subtitle-margin",
+          "label": "Remove subtitle margin",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Subtitle Text",
+          "default": "WHY LUX IS CRITICAL FOR PROFESSIONAL LIGHTING:"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#ff6600"
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "min": 12,
+          "max": 28,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size",
+          "default": 16
+        },
+        {
+          "type": "select",
+          "id": "font_weight",
+          "label": "Font Weight",
+          "options": [
+            { "value": "400", "label": "Normal" },
+            { "value": "500", "label": "Medium" },
+            { "value": "600", "label": "Semi Bold" },
+            { "value": "700", "label": "Bold" }
+          ],
+          "default": "700"
+        },
+        {
+          "type": "select",
+          "id": "text_align",
+          "label": "Text Alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "range",
+          "id": "max_width",
+          "min": 200,
+          "max": 1200,
+          "step": 50,
+          "unit": "px",
+          "label": "Max Width",
+          "default": 800
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "unit": "px",
+          "label": "Top Padding",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "unit": "px",
+          "label": "Bottom Padding",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_left",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "unit": "px",
+          "label": "Left Padding",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_right",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "unit": "px",
+          "label": "Right Padding",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id" : "add-built-in-title",
+          "label": "Add built in title",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id" : "add-custom-title",
+          "label": "Add custom title",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id" : "add-custom-bullets",
+          "label": "Add custom bullets before text",
+          "default": false
+        },
+        {
+          "type": "textarea",
+          "id": "custom-title-pre-text",
+          "label": "Custom title Pre text",
+        },
+        {
+          "type": "select",
+          "id": "pre-title-text-decoration",
+          "label": "Pre title Decoration",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "underline", "label": "Underline" },
+            { "value": "overline", "label": "Overline" },
+            { "value": "line-through", "label": "Line-through" }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "textarea",
+          "id": "custom-title-text",
+          "label": "Custom title text",
+        },
+        {
+          "type": "checkbox",
+          "id" : "remove-title-margin",
+          "label": "Remove title margin",
+          "default": false
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Title Text",
+          "default": "At The Makeup Light (TML), our lights are engineered to provide a surface lux reading of 67,000 and project light up to 5 feet."
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#333333"
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "min": 12,
+          "max": 28,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size",
+          "default": 16
+        },
+        {
+          "type": "select",
+          "id": "font_weight",
+          "label": "Title Font Weight",
+          "options": [
+            { "value": "400", "label": "Normal" },
+            { "value": "500", "label": "Medium" },
+            { "value": "600", "label": "Semi Bold" },
+            { "value": "700", "label": "Bold" }
+          ],
+          "default": "400"
+        },
+        {
+          "type": "select",
+          "id": "text_align",
+          "label": "Text Alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "range",
+          "id": "max_width",
+          "min": 200,
+          "max": 1200,
+          "step": 50,
+          "unit": "px",
+          "label": "Max Width",
+          "default": 800
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "unit": "px",
+          "label": "Top Padding",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "unit": "px",
+          "label": "Bottom Padding",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_left",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "unit": "px",
+          "label": "Left Padding",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_right",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "unit": "px",
+          "label": "Right Padding",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Description Text",
+          "default": "This means that even when the light source is farther from the subject, it still delivers a substantial and evenly distributed amount of light to illuminate the scene without creating harsh shadows or hotspots. This kind of control is crucial in professional settings where consistent lighting quality is necessary across different environments."
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#666666"
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "min": 12,
+          "max": 28,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size",
+          "default": 16
+        },
+        {
+          "type": "select",
+          "id": "font_weight",
+          "label": "Font Weight",
+          "options": [
+            { "value": "400", "label": "Normal" },
+            { "value": "700", "label": "Bold" }
+          ],
+          "default": "400"
+        },
+        {
+          "type": "select",
+          "id": "text_align",
+          "label": "Text Alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "left"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 200,
+          "max": 1200,
+          "step": 50,
+          "unit": "px",
+          "label": "Image Width",
+          "default": 600
+        },
+        {
+          "type": "range",
+          "id": "image_height",
+          "min": 200,
+          "max": 1200,
+          "step": 50,
+          "unit": "px",
+          "label": "Image Height",
+          "default": 400
+        },
+        {
+          "type": "range",
+          "id": "image_border_radius",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Image Border Radius",
+          "default": 8
+        },
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Image Position",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "center"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature with Image",
+      "blocks": [
+        {
+          "type": "subtitle"
+        },
+        {
+          "type": "title"
+        },
+        {
+          "type": "description"
+        },
+        {
+          "type": "subtitle"
+        },
+        {
+          "type": "description"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

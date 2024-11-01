@@ -1,0 +1,555 @@
+{
+  "sections": {
+    "1633684260f2d526f0": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "FAQs",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": true,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16336816691fb51b7b": {
+      "type": "accordions",
+      "blocks": {
+        "16336816691fb51b7b-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "360 Movement",
+            "text": "<p>When a light can move in all directions, we consider that 360 degrees of movement. You can find that with the <a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\/products\/articulating-arm%C2%A0\" target=\"_blank\">Articulating Arm<\/a> or the <a href=\"\/products\/universal-arm\" title=\"Universal Arm\">Universal Arm<\/a>.<\/p>",
+            "open": false
+          }
+        },
+        "16336816691fb51b7b-2": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "\"A\" Clamp",
+            "text": "<p>A clamp shaped like an “A” used for clamping down on cabinets, doors, tables, and more. We use an A-Clamp combined with a Gooseneck for our EZ Clamp—our most popular mount.<\/p>",
+            "open": false
+          }
+        },
+        "16336816691fb51b7b-1": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Affiliate",
+            "text": "<p>An affiliate is an individual who loves TML and wants to spread the love on their channels (and earn a small commission, too!). If you are interested in signing up to be an affiliate, email<a href=\"mailto:Contact@themakeuplight.com\" target=\"_blank\"> Contact@themakeuplight.com<\/a><\/p>",
+            "open": false
+          }
+        },
+        "0f713785-ee20-4325-addf-286d6d62bc47": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Allen Wrench",
+            "text": "<p>This hexagonal wrench is a handy tool we include with some of our sets for mounting or removing our Quick Release.<\/p>",
+            "open": false
+          }
+        },
+        "a5584074-8208-4196-96fc-2994b1d81685": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Articulating Arm",
+            "text": "<p>This mount has almost zero footprint, which is great if you’re trying to save space. Both Key Light and Eyelight fit into this mount that mounts onto your table so you can have 360 degrees of movement while you work.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\/products\/articulating-arm\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "026a0d31-2e83-465e-8817-280500fa2d87": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Ball Head",
+            "text": "<p>Typically known to photographers, the ball head is a small part mounted to the top of a tripod or mount that makes it easier to rotate and position your light panel how you want.<\/p>",
+            "open": false
+          }
+        },
+        "e82240f6-da05-4721-bc39-61cabb98c968": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Bug Power Supply",
+            "text": "<p>An affectionate term for the plastic boxed transformer that plugs directly into the wall outlet. (Not to be confused with an Inline power supply) If you do not take care of your Bug and let it get banged around, your Power Assembly will break. Be sure to always put away your Power Assembly properly in its Felt Pouch!<\/p>",
+            "open": false
+          }
+        },
+        "5753a1cd-6615-4398-a678-a77223a10a6f": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Country Adapters",
+            "text": "<p>Traveling a lot? All of our Power Assemblies come with Country Adapters so you can use your TML products wherever you go. TML provides adapters for Europe, Asia, Australia, and the Americas. While the Country Adapters are interchangeable, the power assemblies aren’t! So, be sure to check which assembly you have for which product before you go.<\/p>",
+            "open": false
+          }
+        },
+        "00e76784-92c1-4f56-bbc1-2b5bdafb1ed5": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "CRI",
+            "text": "<p>The Color Rendering Index is a way of measuring lights in comparison to the sun, with the lowest being 0 and the most like the sun being 100. TML lights are 95+ CRI, so the light you get is as close to natural sunlight as you can get in any LED light on the market.<\/p>",
+            "open": false
+          }
+        },
+        "2e21bd58-b0e8-4f84-ba46-76c754ed1e33": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Custom Order",
+            "text": "<p>Though we are known for our pre-made panels, we also specialize in custom lighting systems for makeup trailers, homes, makeup rooms, and more! Contact our team at <a href=\"mailto:Contact@themakeuplight.com\" target=\"_blank\">Custom@themakeuplight.com <\/a>to get a quote for your custom build.<\/p>",
+            "open": false
+          }
+        },
+        "c4f2d134-5c38-4702-87ea-16fa237c7334": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Daylight Balanced",
+            "text": "<p>The best lighting found on planet Earth comes from the sun. To be Daylight Balanced means the color temperature is balanced to mimic natural daylight. This is great for color matching and ensures what you see is what you get when you step outside.<\/p>",
+            "open": false
+          }
+        },
+        "74056678-bb0e-4577-aa23-5ac9eeb679c8": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Dimmer",
+            "text": "<p>The dimmer allows you to control the brightness of the lights. All TML lights come with a Thermal Dimmer with varying levels of brightness.<\/p>",
+            "open": false
+          }
+        },
+        "263eea35-6ad8-4334-94fd-e61c9bafc9a7": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Eyelight",
+            "text": "<p>The Eyelight is one of our panel (5” x 18”) that was originally designed for work around the eyes. It has since been adopted by body artists, makeup artists, and is great for home-use, too!<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/makeup-lights-for-professional-makeup-artists\/products\/eyelight-panel\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "336c517e-4eb5-4073-9ab3-2bfb853b8b8e": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Eyelight Magic Kit",
+            "text": "<p>Want to create your own portable vanity system? If you want a vanity that can go wherever you go, the Eyelight Magic Kit lets you turn any mirror into an instant vanity.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/key-light-kits\/products\/eyelight-magic-kit\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "cdad131b-0002-40bb-a897-d4bd2619e207": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "EZ Clamp",
+            "text": "<p>The EZ Clamp is our most popular mount. A combination of a Gooseneck and an “A” Clamp, this handy mount will clamp down onto tables, cabinets, doors, and more!<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\/products\/ez-clamp\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "375c7207-cadb-4111-b16b-ecc086793d1c": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Felt Pouch",
+            "text": "<p>A felt pouch is a protective pouch for transporting your TML products. We have custom felt pouches for our Key Light, Eyelight, and Power Assembly. You can also use these felt pouches to hold glass palettes, makeup brushes, airbrushes and more.<\/p>",
+            "open": false
+          }
+        },
+        "5978f481-e226-485b-908a-af74602aa258": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Flicker Free",
+            "text": "<p>Nobody likes a flickering light when recording their videos! Early LED panel models have the issue of flickering under a camera lens, but every TML light comes with a Flicker-Free dimmer.<\/p>",
+            "open": false
+          }
+        },
+        "9beb59ba-2cf0-4590-99ad-4b6ba2fe552f": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Flush Mount",
+            "text": "<p>One of our favorite TML hacks is the Flush-Mount. This transforms your Magic Mount into a flatter mount that has an extremely low profile. It’s almost like placing your TML LED panel “into” your chosen mounting surface.<\/p><p>All you need is a Magic Mount, Quick Release, and a little Super Glue!<\/p>",
+            "open": false
+          }
+        },
+        "5c3621ed-454b-4605-bc7e-8a7e98051dd2": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Floor Stand",
+            "text": "<p>A floor stand is a little different from our Light Stand. A Floor Stand has a heavy base to balance and support placement of your TML LED panel above your subject. It isn’t designed for packing up with you. It’s designed to stay in one place, and is paired beautifully with our Eyelight for microblading, lash work, and more!<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\/products\/floor-stand\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "c7a26f69-92af-4d12-bae1-22900b7bee43": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Gooseneck",
+            "text": "<p>Not to be confused with a great seasoning meat for stews, the Gooseneck provides a rigid but bendable extension for mounting your light on a Light Stand.<\/p><p>NOTE: The Gooseneck is only intended to be paired with the Light Stand. Please do not pair with other TML Mounts.<\/p>",
+            "open": false
+          }
+        },
+        "a1339588-6f1f-44f4-85ba-ea1e1936fe7c": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Kelvin",
+            "text": "<p>Kelvin is a unit of measuring temperature named after engineer and physicist William Thomson, 1st Baron Kelvin. Why does that matter in light? Kelvin is used to determine is the light is warm or cool. The lower the number the warmer and the higher the cooler. TML used 5000K to 5200K because in artificial light it is pure white.<\/p>",
+            "open": false
+          }
+        },
+        "77f9462e-7cc9-4eb2-aa7c-d46d8f4efd02": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Key Light",
+            "text": "<p>This is the tablet-sized panel that started it all. The Key Light 1.0 made way for the Key Light 2.0, but both are powerhouse LED panels in use around the world today. Its durability and portability make it ideal for travel!<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/makeup-lights-for-professional-makeup-artists\/products\/key-light-2-0-led-panel\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "67cf4831-cc9a-4258-a4c5-7f02f36f3fa9": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "LED",
+            "text": "<p>This stands for “Light-emitting diode.”<\/p>",
+            "open": false
+          }
+        },
+        "82280e44-5665-43b8-9d2a-e3c3abc050e3": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "LED Panel",
+            "text": "<p>An LED panel is a light panel constructed with LEDs. TML uses LED’s and a Light Guide to create a single large light source. The Light Guide refracts the light therefore projecting the light. This allows the light to illuminate objects at a measured distance without harming your eyes.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/makeup-lights-for-professional-makeup-artists\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "43c326d3-d2f3-4c07-b264-020379b87072": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Light Stand",
+            "text": "<p>The light stand is a portable tripod that will hold up your light (when paired with the Gooseneck. Screw the Gooseneck on, or use a Quick Release between the Gooseneck and Light Stand for even faster set up and take down!<\/p><p><strong>NOTE:<\/strong> Do not try to mount your light on a Light Stand without a Gooseneck…unless you want your light pointing at the ceiling.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\/products\/light-stand\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "cf7b890a-9aa9-47ae-90c4-2fcc38a4dda0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Lumens",
+            "text": "<p>This is a measure of the total amount of light that is emitted in all directions from a light source.<\/p>",
+            "open": false
+          }
+        },
+        "2113e3bc-ca81-4d2c-85ae-5dd80466f828": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "LUX",
+            "text": "<p>This is the amount of illuminance, or the total amount of light falling on a surface from a light source at a measured distance.<\/p>",
+            "open": false
+          }
+        },
+        "4310bc89-3746-4983-8ce7-219ae99ecfb2": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Mount",
+            "text": "<p>Any option used for holding and supporting your light. Our Key Light and Eyelight work on interchangeable mounts.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "928ae554-5c4e-4d13-a54b-eea174af091c": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Magic Mount",
+            "text": "<p>This is one of our most versatile mounts, hence the name “Magic”. It can be used on a wide variety of surfaces, but there are some we’d recommend against.<\/p><p><strong>Where to Mount: <\/strong>TML Panel, Painted Metal, Tile, Formica Veneer, Varnished Wood.<\/p><p><strong>Where Not to Mount:<\/strong> Painted Wood, Wallpaper, Drywall, Plaster, any porous materials.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\/products\/magic-mount-kit\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "f649e8e0-ada5-4f38-8526-4f4f1f5870a9": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Magnet Mount",
+            "text": "<p>Video calls have never been so simple. This mount allows you to place your phone on a mirror, any of our vanities, or any smooth surface for easy placement for recording videos, hosting Zoom meetings, and more!<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\/products\/magnet-mount-set\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "e1eedeb9-aec3-4ac2-b6ed-2fd12be89d16": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Power Assembly",
+            "text": "<p>The Power Assembly (also known as a Power Supply) is exactly what you think—you plug one end into your light and the other into a power source. Boom, light! But did you know we also have country adapters? Each Power Assembly comes with 4 country adapters.<\/p><p><strong>NOTE: <\/strong>Power Assemblies cannot be shared between lights. Look at the label on the “Bug” to be sure you are using the right cord with the right light.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/accessories-for-the-makeup-light\/products\/key-light-2-0-power-assembly\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "879d0e89-fa34-4b3e-ac2c-98ba9d0463fe": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Pro\/Master Bag",
+            "text": "<p>This bag is roomy, spacious, and durable. It can hold 2 Key Lights, 2 of each of our smaller Mounts (Magic Mount Set, Sticky Suction Mount, EZ Clamp), 2 Power Assemblies, and still have room to spare! And did we mention it’s water resistant?<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/tml-bags\/products\/2-0-pro-master-bag\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "7f1ae0c4-fdb6-48b5-bc81-157cdabd0ef7": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Pro\/Master Stand Bag",
+            "text": "<p>This water resistant bag makes carrying your stand easy. Actually, it can carry 2! Switch from relaxed shoulder bag to backpack, whatever works best for you.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/tml-bags\/products\/2-0-pro-master-stand-bag\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "6a760f55-6557-4f95-88b0-608848a57a68": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Protective Sheet",
+            "text": "<p>The original sheet supplied with the Magic Mount, Magnet Mount and Suction mount. Protects the reusable adhesive surface of our Magic Mount, Magnet Mount, and Suction Mount during storage. Also supplied are Reuse sheets in case you lose the protective sheet.<\/p>",
+            "open": false
+          }
+        },
+        "227b5d0b-542e-405c-b676-aa88631df61e": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Quick Release",
+            "text": "<p>This is the life-saver and time-saver. The Quick Release links up to both your light and your mount so you don't have to unscrew every time. Simply flick the red latch to lock, then flick it to unlock. Currently all panels come with a Quick Release attached to the panel, but if you ever remove yours, here is how to get it back on:<\/p><ul><li>Attach Latch Piece to Panel using the Allen wrench and conical screw included<\/li><li>Attach Companion Piece to mount by screwing it on<\/li><li>Place Latch Piece and Companion Piece together<\/li><li>Flip red latch<\/li><li>To take down, simply flip red latch, lift, and go!<\/li><\/ul><p><a href=\"https:\/\/themakeuplight.com\/collections\/mounting-options\/products\/quick-release\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "3d1386b8-28d6-4d75-a4e9-2e20c23bc1e4": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Quick Release Latch Piece",
+            "text": "<p>The latch piece or female half of the two-sided Quick Release has the handy red latch that you need to lock your Quick Release into place.<\/p>",
+            "open": false
+          }
+        },
+        "9b1b5a8d-1cff-4cec-836d-12acba107912": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Quick Release Companion Piece",
+            "text": "<p>The companion piece or male half of the two-sided Quick Release has no red latch and needs to go on the back of your light.<\/p>",
+            "open": false
+          }
+        },
+        "7ae659d2-b7c5-4454-83e1-801e2a011f22": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Reuse Sheet",
+            "text": "<p>Our Magic Mount, Magnet Mount and Sticky Suction Mount have a sticky side to help mount your light. Whenever you remove it from your mounting surface, simply use the Reuse Sheet by placing the sticky side onto it before you store. That helps keep your mount stickier longer!<\/p>",
+            "open": false
+          }
+        },
+        "b6c778ac-0949-47fd-a8ea-52a480becc50": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "S-Curve",
+            "text": "<p>The S-Curve is the secret to keeping your light from drooping on an EZ Clamp.<\/p>",
+            "open": false
+          }
+        },
+        "356f151b-643f-46d5-a7e9-c56c7abc66ef": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Set Bag",
+            "text": "<p>A set bag is a makeup artist’s best friend on any professional set. Load it up with the tools of the trade, and be hands-free on set while you work.<\/p>",
+            "open": false
+          }
+        },
+        "8de60dd8-3a92-4bf4-b13a-f0c80cb48472": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Starter Stand Kit",
+            "text": "<p>This is our most popular kit! The Starter Stand Kit is a great way to start out if you are unsure about using mounts besides a Light Stand. We find a lot of people familiar with photography or other light systems love on-boarding with the Starter Stand Kit.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/key-light-kits\/products\/key-light-stand-kit\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "941294dc-9823-4618-8e0a-c1bc005aa659": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "TML",
+            "text": "<p>Of course, this stands for “The Makeup Light,” but you will see some people using this to talk about their lights. “Oh, do you have TML? My TML is in my bathroom!”<\/p>",
+            "open": false
+          }
+        },
+        "90d18adb-33c9-4453-a734-f961704d02b3": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "TML Meira",
+            "text": "<p>Our series of vanities—lighted mirrors—is called TML Meira. Meira means “one who illuminates” in Hebrew. The first of the series, the 12x12, is available for purchase now. We will will release more in the series soon!<\/p><p><a href=\"https:\/\/themakeuplight.com\/pages\/vanities\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "7984726d-1f22-4471-9631-6fad9e003c90": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Using One Light",
+            "text": "<p>Yes, one light will work just fine! Give yourself about five feet of space between yourself and the light, and make sure the light is just above your subject and pointed slightly downward. This way, you have bright illumination with a single light.<\/p>",
+            "open": false
+          }
+        },
+        "f5bdd0a1-ae33-44a4-a284-696d8c24890a": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Using Two Lights",
+            "text": "<p>Two is always better than one. Honestly, we love to have as many as 4 or 6 lights in a single set up! But, if you are going for the Master Kit (or adding more lights to your kit), it’s great to have that even light across your subject’s face. Place the lights over either shoulder, a little above your subject and pointed downward. You’ll have great, even light, and no shadows!<\/p>",
+            "open": false
+          }
+        },
+        "c27eead7-35db-4a4f-8064-a1ca73aed0f9": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "UV Light",
+            "text": "<p>Ultraviolet light is a long-wave light that makes neon colors pop.<\/p>",
+            "open": false
+          }
+        },
+        "90dfc4ad-e009-4c20-94bf-ff632999b922": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Vanity",
+            "text": "<p>A vanity is a lighted mirror that is perfect for doing your makeup. In our case, the TML Meira can also light your Zoom calls and YouTube tutorials!<\/p><p><a href=\"https:\/\/themakeuplight.com\/pages\/vanities\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "c9ad96ae-27d6-4d0f-9383-741978eb3463": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Vivian Set Bag",
+            "text": "<p>If the Set Bag is a makeup artist’s best friend on set, Vivian’s Set Bag is the ride-or-die. The weight-reduction strap takes the pressure off your hips. A light interior makes it easy to spot, and reflective zippers and strap make it simple to find in a darkened space. Made from the same water-resistant material as our Pro \/ Master Bag, this bag is sure to become your ride-or-die.<\/p><p><a href=\"https:\/\/themakeuplight.com\/collections\/tml-bags\/products\/vivian-set-bag\" target=\"_blank\">Shop This Product<\/a><\/p>",
+            "open": false
+          }
+        },
+        "7034cc25-0197-4803-8eff-356f105f6214": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Weight-Reduction Strap",
+            "text": "<p>A favorite feature of Vivian’s Set Bag, this strap goes over your shoulder to reduce the effects of the weight on your shoulder.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "16336816691fb51b7b-0",
+        "16336816691fb51b7b-2",
+        "16336816691fb51b7b-1",
+        "0f713785-ee20-4325-addf-286d6d62bc47",
+        "a5584074-8208-4196-96fc-2994b1d81685",
+        "026a0d31-2e83-465e-8817-280500fa2d87",
+        "e82240f6-da05-4721-bc39-61cabb98c968",
+        "5753a1cd-6615-4398-a678-a77223a10a6f",
+        "00e76784-92c1-4f56-bbc1-2b5bdafb1ed5",
+        "2e21bd58-b0e8-4f84-ba46-76c754ed1e33",
+        "c4f2d134-5c38-4702-87ea-16fa237c7334",
+        "74056678-bb0e-4577-aa23-5ac9eeb679c8",
+        "263eea35-6ad8-4334-94fd-e61c9bafc9a7",
+        "336c517e-4eb5-4073-9ab3-2bfb853b8b8e",
+        "cdad131b-0002-40bb-a897-d4bd2619e207",
+        "375c7207-cadb-4111-b16b-ecc086793d1c",
+        "5978f481-e226-485b-908a-af74602aa258",
+        "9beb59ba-2cf0-4590-99ad-4b6ba2fe552f",
+        "5c3621ed-454b-4605-bc7e-8a7e98051dd2",
+        "c7a26f69-92af-4d12-bae1-22900b7bee43",
+        "a1339588-6f1f-44f4-85ba-ea1e1936fe7c",
+        "77f9462e-7cc9-4eb2-aa7c-d46d8f4efd02",
+        "67cf4831-cc9a-4258-a4c5-7f02f36f3fa9",
+        "82280e44-5665-43b8-9d2a-e3c3abc050e3",
+        "43c326d3-d2f3-4c07-b264-020379b87072",
+        "cf7b890a-9aa9-47ae-90c4-2fcc38a4dda0",
+        "2113e3bc-ca81-4d2c-85ae-5dd80466f828",
+        "4310bc89-3746-4983-8ce7-219ae99ecfb2",
+        "928ae554-5c4e-4d13-a54b-eea174af091c",
+        "f649e8e0-ada5-4f38-8526-4f4f1f5870a9",
+        "e1eedeb9-aec3-4ac2-b6ed-2fd12be89d16",
+        "879d0e89-fa34-4b3e-ac2c-98ba9d0463fe",
+        "7f1ae0c4-fdb6-48b5-bc81-157cdabd0ef7",
+        "6a760f55-6557-4f95-88b0-608848a57a68",
+        "227b5d0b-542e-405c-b676-aa88631df61e",
+        "3d1386b8-28d6-4d75-a4e9-2e20c23bc1e4",
+        "9b1b5a8d-1cff-4cec-836d-12acba107912",
+        "7ae659d2-b7c5-4454-83e1-801e2a011f22",
+        "b6c778ac-0949-47fd-a8ea-52a480becc50",
+        "356f151b-643f-46d5-a7e9-c56c7abc66ef",
+        "8de60dd8-3a92-4bf4-b13a-f0c80cb48472",
+        "941294dc-9823-4618-8e0a-c1bc005aa659",
+        "90d18adb-33c9-4453-a734-f961704d02b3",
+        "7984726d-1f22-4471-9631-6fad9e003c90",
+        "f5bdd0a1-ae33-44a4-a284-696d8c24890a",
+        "c27eead7-35db-4a4f-8064-a1ca73aed0f9",
+        "90dfc4ad-e009-4c20-94bf-ff632999b922",
+        "c9ad96ae-27d6-4d0f-9383-741978eb3463",
+        "7034cc25-0197-4803-8eff-356f105f6214"
+      ],
+      "settings": {
+        "title": "Dictionary",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "1634028710b7446a77": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "layout": "carousel",
+        "show_vendor": false,
+        "grid": 4,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": true,
+        "show_view_all": true
+      }
+    }
+  },
+  "order": [
+    "1633684260f2d526f0",
+    "main",
+    "16336816691fb51b7b",
+    "1634028710b7446a77"
+  ]
+}
